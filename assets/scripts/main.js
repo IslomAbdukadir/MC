@@ -23,7 +23,7 @@ $(document).ready(function () {
 
   const runCounter = () => {
     const counters = document.querySelectorAll(".running-number");
-    const speed = 10000;
+    const speed = 5000;
 
     counters.forEach((counter) => {
       const animate = () => {

@@ -2,7 +2,6 @@
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <title>Интернет маркетинг - СММ - Создания сайта - Видео Продакшн - Интернет реклама в Узбекистане</title>
 <meta name="yandex-verification" content="2e63a63aff95c8ec" />
-<meta name="google-site-verification" content="xtUi9DHTDJwdh6NKJnMrHjR3v87cxke4H4PR-Fl0EBM" />
 <meta name="description" content="Рекламное агентство в Ташкенте Marketing Concept: реклама в интернете, создание Landing Page, SEO оптимизация, email-маркетинг, SMM, комплексная реклама в Ташкенте.">
 <meta property="og:title" content="Интернет маркетинг -  СММ - Создания сайта - Видео Продакшн - Интернет реклама в Узбекистане" />
 <meta property="og:description" content="Рекламное агентство в Ташкенте Marketing Concept: реклама в интернете, создание Landing Page, SEO оптимизация, email-маркетинг, SMM, комплексная реклама в Ташкенте." />
@@ -12,6 +11,7 @@
 <meta property="og:image" content="http://marketingconcept.uz/favicon-16x16.png" />
 
 <!-- Разметка JSON-LD, созданная Мастером разметки структурированных данных Google. -->
+
 
 <script type="application/ld+json">
     {

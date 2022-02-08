@@ -37,7 +37,7 @@
             </div>
             <a href="/" class="logo">
                 <!-- <img src="/assets/icons/logo.png" alt=""> -->
-                <img src="/assets/img/logo-christmas.png" alt="">
+                <img src="/assets/img/oqlogo.png" alt="logo">
             </a>
             <div class="mobile-btns">
                 <button class="hamburger hamburger--squeeze" type="button">

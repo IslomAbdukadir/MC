@@ -7,26 +7,27 @@ include "elements/header.php";
         <div class="introduction" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="rocket">
                 <div class="text">
+                    <!-- <button class="my-btn">My button</button> -->
                     <h1 class="main-text animate__animated animate__fadeInUp">Глобальный <span>поставщик</span> маркетинговых решений </h1>
                     <h2 class="animate__animated animate__fadeInUp animate__delay-1s">Качество. Скорость. Креатив </h2>
                     <a href="https://t.me/mc1eam" class="btn animate__animated animate__fadeInUp animate__delay-2s">Смотреть портфолио</a>
                 </div>
                 <div class="images">
-                    <img src="/assets/img/cloud.png" alt="" class="cloud">
-                    <img src="/assets/img/rocket.png" alt="" class="ufo">
-                    <img src="/assets/img/cloud-up.png" alt="" class="cloud-up">    
-                    <img src="/assets/img/cloud-down.png" alt="" class="cloud-down">
-                    <img src="/assets/img/sales.png" alt="" class="graph">
-                    <img src="/assets/img/plus.png" alt="" class="plus">
-                    <img src="/assets/img/wave-line.png" alt="" class="wave-line">
-                    <img src="/assets/img/square-double.png" alt="" class="square-double">
-                    <img src="/assets/img/circle.png" alt="" class="circle">
-                    <img src="/assets/img/circle-square.png" alt="" class="circle-square">
+                    <img src="/assets/img/cloud.png" alt="photo" class="cloud">
+                    <img src="/assets/img/rocket.png" alt="photo" class="ufo">
+                    <img data-tilt src="/assets/img/cloud-up.png" alt="photo" class="cloud-up">
+                    <img src="/assets/img/cloud-down.png" alt="photo" class="cloud-down">
+                    <img src="/assets/img/sales.png" alt="photo" class="graph">
+                    <img src="/assets/img/plus.png" alt="photo" class="plus">
+                    <img src="/assets/img/wave-line.png" alt="photo" class="wave-line">
+                    <img src="/assets/img/square-double.png" alt="photo" class="square-double">
+                    <img src="/assets/img/circle.png" alt="photo" class="circle">
+                    <img src="/assets/img/circle-square.png" alt="photo" class="circle-square">
                 </div>
             </div>
             <div onmouseenter="runCounter()" class="numbers">
-                <div class="number ">
-                    <div class="img" id="rotate"><img src="/assets/img/pie-chart.png" alt=""></div>
+                <div data-tilt class="number">
+                    <div class="img" id="rotate"><img src="/assets/img/pie-chart.png" alt="photo"></div>
                     <div class="text animate__animated animate__fadeInLeft animate__delay-1s">
                         <div class="spans">
                             <span data-value="300" class="running-number">0</span>
@@ -36,7 +37,7 @@ include "elements/header.php";
                     </div>
                 </div>
                 <div class="number">
-                    <div class="img" id="width"><img src="/assets/img/line-chart.png" alt=""></div>
+                    <div class="img" id="width"><img src="/assets/img/line-chart.png" alt="photo"></div>
                     <div class="text animate__animated animate__fadeInDown animate__delay-2s">
                         <div class="spans">
                             <span data-value="5" class="running-number">0</span>
@@ -46,7 +47,7 @@ include "elements/header.php";
                     </div>
                 </div>
                 <div class="number">
-                    <div class="img" id="height"><img src="/assets/img/bar.png" alt=""></div>
+                    <div class="img" id="height"><img src="/assets/img/bar.png" alt="photo"></div>
                     <div class="text animate__animated animate__fadeInUp animate__delay-2s">
                         <div class="spans">
                             <span data-value="5" class="running-number">0</span>
@@ -56,7 +57,7 @@ include "elements/header.php";
                     </div>
                 </div>
                 <div class="number">
-                    <div class="img" id="flip"><img src="/assets/img/coin.png" alt=""></div>
+                    <div class="img" id="flip"><img src="/assets/img/coin.png" alt="photo"></div>
                     <div class="text animate__animated animate__fadeInRight animate__delay-1s">
                         <div class="spans">
                             <span data-value="300" class="running-number">0</span>
@@ -70,7 +71,7 @@ include "elements/header.php";
             <div class="numbers mobile">
                 <div class="inner">
                     <div class="number ">
-                        <div class="img" id="rotate"><img src="/assets/img/pie-chart.png" alt=""></div>
+                        <div class="img" id="rotate"><img src="/assets/img/pie-chart.png" alt="photo"></div>
                         <div class="text animate__animated animate__fadeInLeft animate__delay-1s">
                             <div class="spans">
                                 <span data-value="300" class="running-number">0</span>
@@ -80,7 +81,7 @@ include "elements/header.php";
                         </div>
                     </div>
                     <div class="number">
-                        <div class="img" id="width"><img src="/assets/img/line-chart.png" alt=""></div>
+                        <div class="img" id="width"><img src="/assets/img/line-chart.png" alt="photo"></div>
                         <div class="text animate__animated animate__fadeInDown animate__delay-2s">
                             <div class="spans">
                                 <span data-value="5" class="running-number">0</span>
@@ -92,7 +93,7 @@ include "elements/header.php";
                 </div>
                 <div class="inner">
                     <div class="number">
-                        <div class="img" id="height"><img src="/assets/img/bar.png" alt=""></div>
+                        <div class="img" id="height"><img src="/assets/img/bar.png" alt="photo"></div>
                         <div class="text animate__animated animate__fadeInUp animate__delay-2s">
                             <div class="spans">
                                 <span data-value="5" class="running-number">0</span>
@@ -102,7 +103,7 @@ include "elements/header.php";
                         </div>
                     </div>
                     <div class="number">
-                        <div class="img" id="flip"><img src="/assets/img/coin.png" alt=""></div>
+                        <div class="img" id="flip"><img src="/assets/img/coin.png" alt="photo"></div>
                         <div class="text animate__animated animate__fadeInRight animate__delay-1s">
                             <div class="spans">
                                 <span data-value="300" class="running-number">0</span>
@@ -344,94 +345,83 @@ include "elements/header.php";
         <section class="our-team" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper col-xxl-10 col-xl-11 col-lg-12 col-md-12 col-sm-12 col-12">
                 <div class="text">
-                    <h2>Команда</h2>
+                    <span class="mc-team">Команда</span>
                     <p>Она состоит из амбициозных и целеустремленных профессионалов в своем деле, готовых покорять не только Узбекистан, но и весь мир.</p>
                 </div>
                 <div class="member-info">
                     <div class="carousel-wrapper">
                         <div class="team-carousel owl-carousel">
                             <div class="item">
-                                <img class="team-photo" src="/assets/img/timur.jpg" alt="">
+                                <img class="team-photo" src="/assets/img/timur.jpg" alt="photo">
                             </div>
                             <div class="item">
-                                <img class="team-photo" src="/assets/img/amina.jpg" alt="">
+                                <img class="team-photo" src="/assets/img/amina.jpg" alt="photo">
                             </div>
                             <div class="item">
-                                <img class="team-photo" src="/assets/img/abdukarim.jpg" alt="">
+                                <img class="team-photo" src="/assets/img/abdukarim.jpg" alt="photo">
                             </div>
                             <div class="item">
-                                <img class="team-photo" src="/assets/img/akrom.jpg" alt="">
+                                <img class="team-photo" src="/assets/img/akrom.jpg" alt="photo">
                             </div>
                             <div class="item">
-                                <img class="team-photo" src="/assets/img/dilnura.jpg" alt="">
+                                <img class="team-photo" src="/assets/img/dilnura.jpg" alt="photo">
                             </div>
                             <div class="item">
-                                <img class="team-photo" src="/assets/img/darya.jpg" alt="">
+                                <img class="team-photo" src="/assets/img/darya.jpg" alt="photo">
                             </div>
                             <div class="item">
-                                <img class="team-photo" src="/assets/img/jasur.jpg" alt="">
+                                <img class="team-photo" src="/assets/img/jasur.jpg" alt="photo">
                             </div>
                             <div class="item">
-                                <img class="team-photo" src="/assets/img/avaz.jpg" alt="">
+                                <img class="team-photo" src="/assets/img/avaz.jpg" alt="photo">
                             </div>
                             <div class="item">
-                                <img src="/assets/img/zuxra.jpg" alt="">
+                                <img src="/assets/img/zuxra.jpg" alt="photo">
                             </div>
                             <div class="item">
-                                <img src="/assets/img/umid.jpg" alt="">
+                                <img src="/assets/img/umid.jpg" alt="photo">
                             </div>
                         </div>
                     </div>
                     <div class="members">
                         <div class="member animate__animated animate__fadeInUp">
-                            <h4>Тимур </h4>
-                            <h5>Президент</h5>
+                            <span class="team-owner">Тимур</span>
                             <p>Наш президент. Обладающий отличными навыками деловых переговоров. На прием к нему не пробиться. Однако, если у вас это все же получилось, он выслушает любые ваши идеи и предложения.</p>
                         </div>
                         <div class="member animate__animated animate__fadeInUp active">
-                            <h4>Амина</h4>
-                            <h5>Руководитель департамента Маркетинга</h5>
+                            <span class="team-owner">Амина</span>
                             <p>Наш направляющий луч и профессиональный маркетолог. Она прекрасно умеет перевоплощаться из веселой девушки в строгого руководителя. Для нее не существует времени, ведь она сутками без устали анализирует потребительский рынок, реализует маркетинговые стратегии и проводит рекламные компании. При всей своей занятости готова прийти на выручку в любую минуту.</p>
                         </div>
                         <div class="member animate__animated animate__fadeInUp">
-                            <h4>Абдукарим</h4>
-                            <h5>Генеральный директор</h5>
+                            <span class="team-owner">Абдукарим</span>
                             <p>Самый таинственный сотрудник в коллективе, обладающий уникальной способностью поднимать настроение. Этот работник всегда готов к труду и никогда не опаздывает. Он владеет приемами производственной кухни и не спит на рабочем месте. На вопрос: «К труду готов?» он уверенно отвечает: «Наверное!»</p>
                         </div>
                         <div class="member animate__animated animate__fadeInUp">
-                            <h4>Акром</h4>
-                            <h5>Руководитель департамента дизайна</h5>
+                            <span class="team-owner">Акром</span>
                             <p>В общем и целом, это самый перспективный и оригинальный сотрудник, у которого в наличии море крутых идей. Он, конечно, не Илон Маск, но его проекты тоже залетают</p>
                         </div>
                         <div class="member animate__animated animate__fadeInUp">
-                            <h4>Дилнура</h4>
-                            <h5>Руководитель депортамента SMM </h5>
+                            <span class="team-owner">Дильнура</span>
                             <p>Наше нежное создание. Любимица всех клиентов, потому что умеет слушать и слышать. Обладает необъятным воображением, и при этом пишет очень серьёзные текста. Сочетание мягкости, таланта и ответственности с милой внешностью, в душе которого тот самый беспощадный SMM специалист.</p>
                         </div>
                         <div class="member animate__animated animate__fadeInUp">
-                            <h4>Дарья</h4>
-                            <h5>Руководитль департамента по работе с клиентами</h5>
+                            <span class="team-owner">Дарья</span>
                             <p>Работа каждого сотрудника в офисе зависит именно от неё и сколько чашек кофе она выпила с утра. По-настоящему любящий свое дело и превращающий его в искусство специалист по продажам, который может продать вам и вашему соседу даже слона. Готова в любой момент сбежать с офиса на природу: ноутбук, интернет и рюкзак с бутербродами — что еще нужно для счастья?!</p>
                         </div>
                         <div class="member animate__animated animate__fadeInUp">
-                            <h4>Жасур</h4>
-                            <h5>Web разработчик</h5>
+                            <span class="team-owner">Жасур</span>
                             <p>Наш вдумчивый стратег. Любитель футбола и точных наук. Большую часть времени пребывает в молчании, так как верстка веб-сайта требует концентрации. Суть его работы заключается в создании успешного сайта, с помощью магии гридов, флоатов, какого-нибудь БЭМ и написании HTML, CSS. Веб-мастер по разработке качественного сайта – про Него.</p>
                         </div>
                         <div class="member animate__animated animate__fadeInUp">
-                            <h4>Авазбек</h4>
-                            <h5>Графический дизайнер</h5>
+                            <span class="team-owner">Авазбек</span>
                             <p>Тот самый сотрудник, который всегда чем-то занят. Утверждает, что заряжается энергией от своей работы и имеет огромной желание создавать. Мотивирует всю команду. Кажется безобидным, но это, конечно же, обман.</p>
                         </div>
-
                         <div class="member animate__animated animate__fadeInUp">
-                            <h4>Зухра</h4>
-                            <h5>Проект-менеджер</h5>
+                            <span class="team-owner">Зухра</span>
                             <p>Самый молодой сотрудник, но, нисколько не уступающая в талантливости и креативе остальным. Схватывает все новое в реактивном режиме. Вдохновляется зарубежными трендами и предлагает крутые идеи.</p>
                         </div>
                         <div class="member animate__animated animate__fadeInUp">
-                            <h4>Умид</h4>
-                            <h5>Art-директор</h5>
+                            <span class="team-owner">Умид</span>
                             <p>Наш золотой сотрудник. Во время работы заполняет головы коллег только собой. Изобретатель, который всегда найдет сто причин, чтобы делать что угодно, только не то, что требуется.</p>
                         </div>
                     </div>
@@ -450,37 +440,37 @@ include "elements/header.php";
             <h2>Партнёры</h2>
             <div class="logos">
 
-                <img src="/assets/img/logo (11).png" alt="">
-                <img src="/assets/img/logo (8).png" alt="">
-                <img src="/assets/img/logo (3).png" alt="">
-                <img src="/assets/img/logo (4).png" alt="">
-                <img src="/assets/img/logo (10).png" alt="">
-                <img src="/assets/img/logo (17).png" alt="">
-                <img src="/assets/img/logo (1).png" alt="">
+                <img src="/assets/img/logo (11).png" alt="photo">
+                <img src="/assets/img/logo (8).png" alt="photo">
+                <img src="/assets/img/logo (3).png" alt="photo">
+                <img src="/assets/img/logo (4).png" alt="photo">
+                <img src="/assets/img/logo (10).png" alt="photo">
+                <img src="/assets/img/logo (17).png" alt="photo">
+                <img src="/assets/img/logo (1).png" alt="photo">
 
-                <img src="/assets/img/logo (5).png" alt="">
-                <img src="/assets/img/logo (13).png" alt="">
-                <img src="/assets/img/logo (28).png" alt="">
-                <img src="/assets/img/logo (9).png" alt="">
-                <img src="/assets/img/logo (2).png" alt="">
-                <img src="/assets/img/logo (16).png" alt="">
-                <img src="/assets/img/logo (6).png" alt="">
+                <img src="/assets/img/logo (5).png" alt="photo">
+                <img src="/assets/img/logo (13).png" alt="photo">
+                <img src="/assets/img/logo (28).png" alt="photo">
+                <img src="/assets/img/logo (9).png" alt="photo">
+                <img src="/assets/img/logo (2).png" alt="photo">
+                <img src="/assets/img/logo (16).png" alt="photo">
+                <img src="/assets/img/logo (6).png" alt="photo">
 
-                <img src="/assets/img/logo (7).png" alt="">
-                <img src="/assets/img/logo (14).png" alt="">
-                <img src="/assets/img/logo (25).png" alt="">
-                <img src="/assets/img/logo (15).png" alt="">
-                <img src="/assets/img/logo (12).png" alt="">
-                <img src="/assets/img/logo (22).png" alt="">
-                <img src="/assets/img/logo (18).png" alt="">
+                <img src="/assets/img/logo (7).png" alt="photo">
+                <img src="/assets/img/logo (14).png" alt="photo">
+                <img src="/assets/img/logo (25).png" alt="photo">
+                <img src="/assets/img/logo (15).png" alt="photo">
+                <img src="/assets/img/logo (12).png" alt="photo">
+                <img src="/assets/img/logo (22).png" alt="photo">
+                <img src="/assets/img/logo (18).png" alt="photo">
 
-                <img src="/assets/img/logo (19).png" alt="">
-                <img src="/assets/img/logo (20).png" alt="">
-                <img src="/assets/img/logo (21).png" alt="">
-                <img src="/assets/img/logo (23).png" alt="">
-                <img src="/assets/img/logo (24).png" alt="">
-                <img src="/assets/img/logo (26).png" alt="">
-                <img src="/assets/img/logo (27).png" alt="">
+                <img src="/assets/img/logo (19).png" alt="photo">
+                <img src="/assets/img/logo (20).png" alt="photo">
+                <img src="/assets/img/logo (21).png" alt="photo">
+                <img src="/assets/img/logo (23).png" alt="photo">
+                <img src="/assets/img/logo (24).png" alt="photo">
+                <img src="/assets/img/logo (26).png" alt="photo">
+                <img src="/assets/img/logo (27).png" alt="photo">
             </div>
             <div class="partner-btn"><span>Хочу стать вашим партнёром</span></div>
         </div>
@@ -489,46 +479,46 @@ include "elements/header.php";
     <section class="second-partners container-fluid">
         <div class="second-carousel owl-carousel">
             <div class="item">
-                <img src="/assets/img/logo (1).png" alt="">
+                <img src="/assets/img/logo (1).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (2).png" alt="">
+                <img src="/assets/img/logo (2).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (3).png" alt="">
+                <img src="/assets/img/logo (3).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (4).png" alt="">
+                <img src="/assets/img/logo (4).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (5).png" alt="">
+                <img src="/assets/img/logo (5).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (6).png" alt="">
+                <img src="/assets/img/logo (6).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (7).png" alt="">
+                <img src="/assets/img/logo (7).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (8).png" alt="">
+                <img src="/assets/img/logo (8).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (9).png" alt="">
+                <img src="/assets/img/logo (9).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (10).png" alt="">
+                <img src="/assets/img/logo (10).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (11).png" alt="">
+                <img src="/assets/img/logo (11).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (12).png" alt="">
+                <img src="/assets/img/logo (12).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (13).png" alt="">
+                <img src="/assets/img/logo (13).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (14).png" alt="">
+                <img src="/assets/img/logo (14).png" alt="photo">
             </div>
         </div>
         <div id="partners"></div>
@@ -536,46 +526,46 @@ include "elements/header.php";
     <section class="third-partners container-fluid">
         <div class="third-carousel owl-carousel">
             <div class="item">
-                <img src="/assets/img/logo (15).png" alt="">
+                <img src="/assets/img/logo (15).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (16).png" alt="">
+                <img src="/assets/img/logo (16).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (17).png" alt="">
+                <img src="/assets/img/logo (17).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (18).png" alt="">
+                <img src="/assets/img/logo (18).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (19).png" alt="">
+                <img src="/assets/img/logo (19).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (20).png" alt="">
+                <img src="/assets/img/logo (20).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (21).png" alt="">
+                <img src="/assets/img/logo (21).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (22).png" alt="">
+                <img src="/assets/img/logo (22).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (23).png" alt="">
+                <img src="/assets/img/logo (23).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (24).png" alt="">
+                <img src="/assets/img/logo (24).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (25).png" alt="">
+                <img src="/assets/img/logo (25).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (26).png" alt="">
+                <img src="/assets/img/logo (26).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (27).png" alt="">
+                <img src="/assets/img/logo (27).png" alt="photo">
             </div>
             <div class="item">
-                <img src="/assets/img/logo (28).png" alt="">
+                <img src="/assets/img/logo (28).png" alt="photo">
             </div>
         </div>
     </section>
@@ -587,7 +577,7 @@ include "elements/header.php";
                     <div class="feedbacks-carousel owl-carousel">
                         <div class="item">
                             <div class="inner">
-                                <div class="img"><img src="/assets/img/feedback-4.png" alt=""></div>
+                                <div class="img"><img src="/assets/img/feedback-4.png" alt="photo"></div>
                                 <h4>Зуфаров Джамшид Абдумаликович</h4>
                                 <h5>Заместитель генерального директора компании OOO «Khorezmgardencells»</h5>
                                 <p>Приятно осознавать, что агентства такого уровня есть не только за рубежом. В Marketing Concept работают действительно грамотные специалисты, которые подходят к делу со всей ответственностью и пониманием, что нужно клиенту. </p>
@@ -597,7 +587,7 @@ include "elements/header.php";
                         </div>
                         <div class="item">
                             <div class="inner">
-                                <div class="img"><img src="/assets/img/feedback-5.png" alt=""></div>
+                                <div class="img"><img src="/assets/img/feedback-5.png" alt="photo"></div>
                                 <h4>Бабаджанов Джасур Фатхуллаевич</h4>
                                 <h5>Директор ТЦ "Atrium"</h5>
                                 <p>Marketing concept начал работу по поднятию нашего Торгового Центра с нуля. Многие ступени в управлении через медиа и не только, мы передали им. За время нашего сотрудничества, мы предлагали свои задумки и идеи, получали фидбэк и от них. </p>
@@ -607,7 +597,7 @@ include "elements/header.php";
                         </div>
                         <div class="item">
                             <div class="inner">
-                                <div class="img"><img src="/assets/img/feedback-1.png" alt=""></div>
+                                <div class="img"><img src="/assets/img/feedback-1.png" alt="photo"></div>
                                 <h4>Туляганов Мурод Алимджанович</h4>
                                 <h5>Директор Компании Building And Projecting</h5>
                                 <p>Огромная благодарность за разработку нашего сайта. Работая с Вашей компанией, мы всегда можем рассчитывать на компетентность, оперативное реагирование и исполнение всех работ в оговоренные сроки или даже раньше намеченного. Желаем Marketing Concept успехов!</p>
@@ -617,7 +607,7 @@ include "elements/header.php";
                         </div>
                         <div class="item">
                             <div class="inner">
-                                <div class="img"><img src="/assets/img/feedback-2.png" alt=""></div>
+                                <div class="img"><img src="/assets/img/feedback-2.png" alt="photo"></div>
                                 <h4>Закиров Бобур Дильмурод угли</h4>
                                 <h5>Директор Компании Turin Invest Engineering</h5>
                                 <p>Хотим отметить качественную работу «Marketing Concept» за воплощение креативных идей по нашему проекту. Агентство проявило себя как надежный партнер, имеющий профессиональный подход к делу и хорошую организацию выполняемых работ</p>
@@ -627,7 +617,7 @@ include "elements/header.php";
                         </div>
                         <div class="item">
                             <div class="inner">
-                                <div class="img"><img src="/assets/img/feedback-3.png" alt=""></div>
+                                <div class="img"><img src="/assets/img/feedback-3.png" alt="photo"></div>
                                 <h4>Акбаров Даврон Диляварович</h4>
                                 <h5>Директор международной компании OOO «Green Desert»</h5>
                                 <p>С «Marketing Concept Company» работаю по нескольким проектам. Особенно нравится, что сотрудники очень грамотные и умеют донести сложную информацию доступным языком. Так, что начинаешь думать: это же, оказывается, так просто! Спасибо!</p>
@@ -637,7 +627,7 @@ include "elements/header.php";
                         </div>
                         <div class="item">
                             <div class="inner">
-                                <div class="img"><img src="/assets/img/feedback-7.png" alt=""></div>
+                                <div class="img"><img src="/assets/img/feedback-7.png" alt="photo"></div>
                                 <h4>Халмеев Нариман Касымович</h4>
                                 <h5>Директор и основатель клиники «Здоровье Всем»</h5>
                                 <p>С Вашей компанией Marketing Concept приятно работать! На мой взгляд, это основано на высоком профессионализме, доброжелательности и оперативности. Все это успешно дополняет ощущение заказчика, что он работает сам, хотя ему не навязчиво подсказывают, что делать. Спасибо! </p>
@@ -647,7 +637,7 @@ include "elements/header.php";
                         </div>
                         <div class="item">
                             <div class="inner">
-                                <div class="img"><img src="/assets/img/feedback-8.png" alt=""></div>
+                                <div class="img"><img src="/assets/img/feedback-8.png" alt="photo"></div>
                                 <h4>Дилшод Таиров</h4>
                                 <h5>Консультант по структурным преобразованиям ООО «Elephant Group»</h5>
                                 <p>Команда MC за короткое время сотрудничества, зарекомендовала себя, как профессионалов и Отдельно необходимо, отметить стремление сотрудников агентства глубоко изучать и погружаться в технологически непростую отрасль как пищевая промышленность. </p>
@@ -657,7 +647,7 @@ include "elements/header.php";
                         </div>
                         <div class="item">
                             <div class="inner">
-                                <div class="img"><img src="/assets/img/feedback-9.png" alt=""></div>
+                                <div class="img"><img src="/assets/img/feedback-9.png" alt="photo"></div>
                                 <h4>Абдуллаева Нозима Миджалаловна</h4>
                                 <h5>Директор Компании ООО «Kira VitaFarm»</h5>
                                 <p>Ассалому алейкум Marketing Concept!
@@ -669,7 +659,7 @@ include "elements/header.php";
                         </div>
                         <div class="item">
                             <div class="inner">
-                                <div class="img"><img src="/assets/img/feedback-10.png" alt=""></div>
+                                <div class="img"><img src="/assets/img/feedback-10.png" alt="photo"></div>
                                 <h4>Умаров Миржалол Мирзохид угли</h4>
                                 <h5>Директор компании ildam.inc</h5>
                                 <p>От лица компании ildam.inc и от себя лично выражаю огромную коллективу компании Marketing Concept, за добросовестную работу в
@@ -681,7 +671,7 @@ include "elements/header.php";
                         </div>
                         <div class="item">
                             <div class="inner">
-                                <div class="img"><img src="/assets/img/feedback-6.png" alt=""></div>
+                                <div class="img"><img src="/assets/img/feedback-6.png" alt="photo"></div>
                                 <h4>Сайдаилиев Бобур Баходирович</h4>
                                 <h5>Генеральный директор "Global insurance"</h5>
                                 <p>Мы обратились в компанию Marketing Concept с задачей по комплексному созданию бренда. Хотелось сделать его современным и интересным. Разработанный бренд точно передает идею нашей компании. Ребята создали то, что крутилось у меня в голове и усовершенствовали мою идею. </p>
@@ -691,7 +681,7 @@ include "elements/header.php";
                         </div>
                         <div class="item">
                             <div class="inner">
-                                <div class="img"><img src="/assets/img/feedback-11.png" alt=""></div>
+                                <div class="img"><img src="/assets/img/feedback-11.png" alt="photo"></div>
                                 <h4>Худойбердиев А.М</h4>
                                 <h5>Коммерческий директор BMK</h5>
                                 <p>В Marketing Concept работают действительно грамотные специалисты. Подкупает то, что им важно получить хороший результат, поэтому специалисты всегда в поиске свежих и креативных идей. Могу сказать, что компания зарекомендовала себя как надежный партнер и хочется просто сказать спасибо за такую прекрасную работу. </p>
@@ -701,7 +691,7 @@ include "elements/header.php";
                         </div>
                         <div class="item">
                             <div class="inner">
-                                <div class="img"><img src="/assets/img/feedback-12.png" alt=""></div>
+                                <div class="img"><img src="/assets/img/feedback-12.png" alt="photo"></div>
                                 <h4>Акмаль Хасанов</h4>
                                 <h5>Директор и основатель "WeLight"</h5>
                                 <p>Хочу поблагодарить Marketing Concept за обновленный внешний вид нашего инстаграма. Смотрю на профиль и получаю удовольствие. Я очень доволен тем, как вы использовали тот контент, который мы предоставляли. Также благодаря вам, мы получили идеи по продвижению продукта помимо SMM, которые скоро реализуем. </p>
@@ -711,7 +701,7 @@ include "elements/header.php";
                         </div>
                         <div class="item">
                             <div class="inner">
-                                <div class="img"><img src="/assets/img/feedback-13.png" alt=""></div>
+                                <div class="img"><img src="/assets/img/feedback-13.png" alt="photo"></div>
                                 <h4>Ташходжаев Ф.Э.</h4>
                                 <h5>Директор санаторий Chotqol</h5>
                                 <p>Позвольте выразить Вам искреннюю благодарность за плодотворное сотрудничество. Благодаря вашим усилиям наш санаторий приобрёл новых клиентов. Хотим подчеркнуть Ваш высокий уровень профессионализма, оперативность и объективность в освещении деятельности нашего санатория. Желаем всему Вашему дружелюбному коллективу успехов и процветания!
@@ -722,7 +712,7 @@ include "elements/header.php";
                         </div>
                         <div class="item">
                             <div class="inner">
-                                <div class="img"><img src="/assets/img/feedback-15.png" alt=""></div>
+                                <div class="img"><img src="/assets/img/feedback-15.png" alt="photo"></div>
                                 <h4>Рузибаев О.Б.</h4>
                                 <h5>Директор ООО New Best Style</h5>
                                 <p>Компания ООО New Best Style ( ТМ Max Decor) благодарит компанию Marketing Concept за плодотворное сотрудничество, качественный сервис, отзывчивость . Нам очень приятно сотрудничество с Marketing Concept, желаем компании дальнейшего процветания, развития и успехов!
@@ -733,7 +723,7 @@ include "elements/header.php";
                         </div>
                         <div class="item">
                             <div class="inner">
-                                <div class="img"><img src="/assets/img/feedback-14.png" alt=""></div>
+                                <div class="img"><img src="/assets/img/feedback-14.png" alt="photo"></div>
                                 <h4>Кабилжанов Б.Р.</h4>
                                 <h5>Начальник отдела маркетинга и рекламы OOO "Uzdigital TV" </h5>
                                 <p>Компания, OOO «UZDIGITAL TV» благодарит компанию Marketing Concept за многочисленно реализованные проекты. Команда Marketing Concept оказывала содействие и помощь на всех стадиях реализации проекта, были очень полезны их рекомендации. Нам очень приятно было сотрудничать с компанией Marketing Concept!!!!!!
@@ -806,7 +796,7 @@ include "elements/header.php";
                                     <a href="tel:+998975888855">+998 97 588 88 55</a>
                                 </div>
                                 <div class="link-group">
-                                    <a href="tel:+998975888556">+998 97 558 85 56</a>
+                                    <a href="tel:+998975588556">+998 97 558 85 56</a>
                                     <a href="tel:+998975588855">+998 97 558 88 55</a>
                                 </div>
                             </div>
@@ -854,7 +844,7 @@ include "elements/header.php";
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-
+<script src="./assets/js/vanilla-tilt.js"></script>
 
 
 <?php include "elements/modal.php"; ?>

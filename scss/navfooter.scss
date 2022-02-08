@@ -203,7 +203,8 @@ body {
           }
         }
         .logo img {
-          filter: invert(1) grayscale(1) brightness(5);
+          object-fit: cover;
+          filter: none;
         }
         .socials .partner-btn {
           background: $green;
@@ -229,6 +230,8 @@ body {
             div {
               img {
                 filter: invert(1) grayscale(1) brightness(5);
+                width: 60px;
+                height: 60px;
               }
               color: white;
             }
@@ -264,7 +267,48 @@ body {
           }
           .btn {
             background: $green;
+            &:hover {
+              letter-spacing: 1px;
+            }
           }
+          // .my-btn {
+          //   background-color: #363636;
+          //   position: relative;
+          //   display: inline-flex;
+          //   padding: 10px 30px;
+          //   color: #fff;
+          //   letter-spacing: 1px;
+          //   text-decoration: none;
+          //   overflow: hidden;
+          //   &::before {
+          //     content: "";
+          //     position: absolute;
+          //     top: 0;
+          //     left: 0;
+          //     width: 20px;
+          //     height: 20px;
+          //     background: #2196f3;
+          //     border-radius: 50%;
+          //     transition: width 0.5s, height 0.5s;
+          //   }
+          //   &:hover &::before {
+          //     width: 300px;
+          //     height: 300px;
+          //   }
+          // }
+          // .btn {
+          //   background: $green;
+          //   border-radius: 40px;
+          //   transition: 1s;
+          //   outline: none;
+          //   box-shadow: none;
+          //   width: 280px;
+
+          //   &:hover {
+          //     letter-spacing: 1px;
+          //     box-shadow: inset 300px 0 0 0 #ff9900;
+          //   }
+          // }
         }
       }
       .numbers {
@@ -359,7 +403,7 @@ body {
     }
     .our-team .wrapper {
       .text {
-        h2 {
+        span {
           color: white;
         }
         p {
@@ -368,10 +412,7 @@ body {
       }
       .member-info {
         .members .member {
-          h4 {
-            color: white;
-          }
-          h5,
+          .team-owner,
           p {
             color: #fff;
           }
@@ -504,6 +545,10 @@ header {
       top: 0;
       left: 50%;
       transform: translateX(-50%) translateY(-15px);
+
+      img {
+        filter: invert(1) grayscale(1) brightness(5);
+      }
     }
     .mobile-btns {
       display: none;
@@ -748,7 +793,6 @@ header {
     }
   }
 }
-
 .section {
   transform: translateY(50%);
   opacity: 0;
@@ -1295,9 +1339,9 @@ header {
       text-align: center;
       max-width: 800px;
       margin: 0 auto 20px;
-      h2 {
+      span {
         padding: 15px 0;
-        font-size: 40px;
+        font-size: 40px !important;
         color: $main;
         font-weight: 600;
       }
@@ -1326,6 +1370,14 @@ header {
           display: none;
           &.active {
             display: block;
+          }
+          .team-owner {
+            color: #042348;
+            font-size: 32px;
+            font-weight: bold;
+            text-align: center;
+            display: block;
+            margin: 20px 0;
           }
           h4 {
             font-weight: 600;
@@ -1409,13 +1461,15 @@ header {
                 img {
                   max-width: 100%;
                   max-height: 100%;
+                  filter: grayscale(1);
                 }
               }
               &.center {
                 .item {
                   transform: scale(1) translateX(0px) !important;
                   img {
-                    filter: unset;
+                    // filter: unset;
+                    filter: grayscale(0);
                   }
                 }
                 & + div {
@@ -1491,7 +1545,7 @@ header {
                     z-index: 1;
                     .item {
                       transform: scale(0.4) translateX(-125%) translateY(20%);
-                      //   filter: blur(5px);
+                      filter: blur(5px);
                     }
                   }
                 }
@@ -2095,10 +2149,10 @@ footer {
       padding: 0 30px;
       transition: all 0.3s ease;
       &.blur {
-        background: rgba(255, 255, 255, 0.5);
+        background: #113464;
         box-shadow: 0px 20px 30px rgba(12, 0, 45, 0.02),
           inset 0px -2px 0px #ffffff, inset 0px 0px 0px #ffffff;
-        backdrop-filter: blur(50px);
+        // backdrop-filter: blur(100px);
       }
       .socials {
         display: none;

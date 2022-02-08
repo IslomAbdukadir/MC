@@ -317,8 +317,10 @@ body.dark header .navigation .extensions .lang a.active {
 }
 
 body.dark header .navigation .logo img {
-  -webkit-filter: invert(1) grayscale(1) brightness(5);
-          filter: invert(1) grayscale(1) brightness(5);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: none;
+          filter: none;
 }
 
 body.dark header .navigation .socials .partner-btn {
@@ -351,6 +353,8 @@ body.dark header .navigation .links .inner div {
 body.dark header .navigation .links .inner div img {
   -webkit-filter: invert(1) grayscale(1) brightness(5);
           filter: invert(1) grayscale(1) brightness(5);
+  width: 60px;
+  height: 60px;
 }
 
 body.dark #fp-nav.fp-right ul li a span {
@@ -380,6 +384,10 @@ body.dark .introduction .rocket .text h2 {
 
 body.dark .introduction .rocket .text .btn {
   background: #01d957;
+}
+
+body.dark .introduction .rocket .text .btn:hover {
+  letter-spacing: 1px;
 }
 
 body.dark .introduction .numbers .number .text .spans span,
@@ -480,7 +488,7 @@ body.dark .about .wrapper .form form .btn-default {
   background: #01d957;
 }
 
-body.dark .our-team .wrapper .text h2 {
+body.dark .our-team .wrapper .text span {
   color: white;
 }
 
@@ -488,11 +496,7 @@ body.dark .our-team .wrapper .text p {
   color: #fff;
 }
 
-body.dark .our-team .wrapper .member-info .members .member h4 {
-  color: white;
-}
-
-body.dark .our-team .wrapper .member-info .members .member h5,
+body.dark .our-team .wrapper .member-info .members .member .team-owner,
 body.dark .our-team .wrapper .member-info .members .member p {
   color: #fff;
 }
@@ -666,6 +670,11 @@ header .navigation .logo {
   -webkit-transform: translateX(-50%) translateY(-15px);
       -ms-transform: translateX(-50%) translateY(-15px);
           transform: translateX(-50%) translateY(-15px);
+}
+
+header .navigation .logo img {
+  -webkit-filter: invert(1) grayscale(1) brightness(5);
+          filter: invert(1) grayscale(1) brightness(5);
 }
 
 header .navigation .mobile-btns {
@@ -1761,9 +1770,9 @@ header .phone-givo::after {
   margin: 0 auto 20px;
 }
 
-.our-team .wrapper .text h2 {
+.our-team .wrapper .text span {
   padding: 15px 0;
-  font-size: 40px;
+  font-size: 40px !important;
   color: #064387;
   font-weight: 600;
 }
@@ -1795,6 +1804,15 @@ header .phone-givo::after {
 
 .our-team .wrapper .member-info .members .member.active {
   display: block;
+}
+
+.our-team .wrapper .member-info .members .member .team-owner {
+  color: #042348;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin: 20px 0;
 }
 
 .our-team .wrapper .member-info .members .member h4 {
@@ -1923,6 +1941,8 @@ header .phone-givo::after {
 .our-team .wrapper .member-info .carousel-wrapper .team-carousel .owl-item.active .item img {
   max-width: 100%;
   max-height: 100%;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
 }
 
 .our-team .wrapper .member-info .carousel-wrapper .team-carousel .owl-item.active.center .item {
@@ -1932,8 +1952,8 @@ header .phone-givo::after {
 }
 
 .our-team .wrapper .member-info .carousel-wrapper .team-carousel .owl-item.active.center .item img {
-  -webkit-filter: unset;
-          filter: unset;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
 }
 
 .our-team .wrapper .member-info .carousel-wrapper .team-carousel .owl-item.active.center + div .item {
@@ -2036,6 +2056,8 @@ header .phone-givo::after {
   -webkit-transform: scale(0.4) translateX(-125%) translateY(20%);
       -ms-transform: scale(0.4) translateX(-125%) translateY(20%);
           transform: scale(0.4) translateX(-125%) translateY(20%);
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
 }
 
 .feedbacks .wrapper .carousel-wrapper .feedbacks-carousel .owl-stage-outer .owl-stage .owl-item .item {
@@ -2809,11 +2831,9 @@ footer .wrapper .footer-links:last-child {
     transition: all 0.3s ease;
   }
   header .navigation.blur {
-    background: rgba(255, 255, 255, 0.5);
+    background: #113464;
     -webkit-box-shadow: 0px 20px 30px rgba(12, 0, 45, 0.02), inset 0px -2px 0px #ffffff, inset 0px 0px 0px #ffffff;
             box-shadow: 0px 20px 30px rgba(12, 0, 45, 0.02), inset 0px -2px 0px #ffffff, inset 0px 0px 0px #ffffff;
-    -webkit-backdrop-filter: blur(50px);
-            backdrop-filter: blur(50px);
   }
   header .navigation .socials {
     display: none;
