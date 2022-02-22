@@ -243,7 +243,7 @@ $(document).ready(function () {
         margin: 20,
         center: false,
       },
-      900: {
+      995: {
         center: true,
         margin: 50,
         items: 2.5,

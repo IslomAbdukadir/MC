@@ -4,9 +4,7 @@
 <head>
 
     <?php
-
-    include "elements/head.php";
-
+         include "elements/head.php";
     ?>
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -39,7 +37,7 @@
             </div>
             <a href="/" class="logo">
                 <!-- <img src="/assets/icons/logo.png" alt=""> -->
-                <img src="/assets/img/logo-christmas.png" alt="">
+                <img src="/assets/img/oqlogo.png" alt="logo">
             </a>
             <div class="mobile-btns">
                 <button class="hamburger hamburger--squeeze" type="button">

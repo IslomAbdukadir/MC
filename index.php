@@ -7,15 +7,19 @@ include "elements/header.php";
         <div class="introduction" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="rocket">
                 <div class="text">
-                    <!-- <button class="my-btn">My button</button> -->
+                    <button style="display: none;" class="btn"></button>
                     <h1 class="main-text animate__animated animate__fadeInUp">Глобальный <span>поставщик</span> маркетинговых решений </h1>
                     <h2 class="animate__animated animate__fadeInUp animate__delay-1s">Качество. Скорость. Креатив </h2>
-                    <a href="https://t.me/mc1eam" class="btn animate__animated animate__fadeInUp animate__delay-2s">Смотреть портфолио</a>
+
+                        <button style="width: 280px; height: 60px;" class="btn animate__animated animate__fadeInUp animate__delay-2s" type="submit">
+                            <a href="https://t.me/mc1eam">Смотреть портфолио</a>
+                        </button>
                 </div>
+
                 <div class="images">
                     <img src="/assets/img/cloud.png" alt="photo" class="cloud">
                     <img src="/assets/img/rocket.png" alt="photo" class="ufo">
-                    <img data-tilt src="/assets/img/cloud-up.png" alt="photo" class="cloud-up">
+                    <img src="/assets/img/cloud-up.png" alt="photo" class="cloud-up">
                     <img src="/assets/img/cloud-down.png" alt="photo" class="cloud-down">
                     <img src="/assets/img/sales.png" alt="photo" class="graph">
                     <img src="/assets/img/plus.png" alt="photo" class="plus">
@@ -26,7 +30,7 @@ include "elements/header.php";
                 </div>
             </div>
             <div onmouseenter="runCounter()" class="numbers">
-                <div data-tilt class="number">
+                <div class="number">
                     <div class="img" id="rotate"><img src="/assets/img/pie-chart.png" alt="photo"></div>
                     <div class="text animate__animated animate__fadeInLeft animate__delay-1s">
                         <div class="spans">
@@ -66,8 +70,8 @@ include "elements/header.php";
                         <p>Партнеров</p>
                     </div>
                 </div>
-
             </div>
+
             <div class="numbers mobile">
                 <div class="inner">
                     <div class="number ">
@@ -113,11 +117,12 @@ include "elements/header.php";
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
+
         <div id="home"></div>
     </section>
+
     <section class="section" data-anchor="section2">
         <div class="about-text">
             <h4 class="subtitle">О нас</h4>
@@ -127,9 +132,9 @@ include "elements/header.php";
                         Marketing concept – Глобальный поставщик маркетинговых решений
                     </p> -->
                     <div class="boss-told">
-                        <p class="inline-item"> Мы -
-                        <h2 class="inline-item">цифровое агентство</h2>
-                        с самым высоким рейтингом в Узбекистане, специализирующееся на творческих решениях, ориентированных на результат. Будь то
+                        <p class="inline-item about__bold__text"> Мы -
+                        <h2 class="inline-item about__bold__text">цифровое агентство</h2>
+                        <span class="about__bold__text">с самым высоким рейтингом в Узбекистане,</span> специализирующееся на творческих решениях, ориентированных на результат. Будь то
                         <h6 class="inline-item">увеличение прибыли</h6>
                         <h6 class="inline-item">рост продаж</h6>
                         <h6 class="inline-item">поддержка и продвижение вашего бренда </h6>
@@ -154,6 +159,9 @@ include "elements/header.php";
         </div>
         <div id="about"></div>
     </section>
+    <!-- tugadi -->
+
+
     <section class="section" data-anchor="section3">
         <section class="services" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -216,8 +224,11 @@ include "elements/header.php";
                             <p class="animate__animated animate__fadeInUp  ">Процесс создания и разработки рекламных, имиджевых, презентационных и других роликов. Все крупные компании имеют свои видеоролики разного типа, так почему бы и вам не стать одним из них? </p>
                         </div>
                     </div>
-                    <a href="https://t.me/mc1eam" class="btn-default">Портфолио</a>
+                    <button style="width: 300px; height: 55px;"  class="btn" type="submit">
+                        <a class="animate__animated animate__fadeInUp" href="https://t.me/mc1eam">Портфолио</a>
+                    </button>
                 </div>
+
                 <div class="carousel-wrapper">
                     <h2>Наши услуги</h2>
                     <div class="service-carousel owl-carousel">
@@ -304,6 +315,8 @@ include "elements/header.php";
         </section>
         <div id="services"></div>
     </section>
+    <!-- tugadi -->
+
     <section class="section" data-anchor="section4">
         <section class="about" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -335,12 +348,16 @@ include "elements/header.php";
                         <h4>Оставьте заявку, и наши специалисты свяжутся с вами в ближайшее время</h4>
                         <input type="text" required placeholder="Имя" name="user_name">
                         <input type="text" required placeholder="Номер" class="phonenumber" name="user_phone">
-                        <button class="btn-default" type="submit">Заказать звонок</button>
+                        <button style="width: 100%; height: 100%;" class="btn" type="submit">
+                             <a href="https://t.me/mc1eam">Заказать звонок</a>
+                        </button>
                     </form>
                 </div>
             </div>
         </section>
     </section>
+    <!-- tugadi -->
+
     <section class="section" data-anchor="section5">
         <section class="our-team" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper col-xxl-10 col-xl-11 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -435,47 +452,50 @@ include "elements/header.php";
         </section>
         <div id="team"></div>
     </section>
+    <!-- tugadi -->
+
     <section class="section" data-anchor="section6">
         <div class="partners" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <h2>Партнёры</h2>
             <div class="logos">
-
-                <img src="/assets/img/logo (11).png" alt="photo">
-                <img src="/assets/img/logo (8).png" alt="photo">
-                <img src="/assets/img/logo (3).png" alt="photo">
-                <img src="/assets/img/logo (4).png" alt="photo">
-                <img src="/assets/img/logo (10).png" alt="photo">
-                <img src="/assets/img/logo (17).png" alt="photo">
-                <img src="/assets/img/logo (1).png" alt="photo">
-
-                <img src="/assets/img/logo (5).png" alt="photo">
-                <img src="/assets/img/logo (13).png" alt="photo">
-                <img src="/assets/img/logo (28).png" alt="photo">
-                <img src="/assets/img/logo (9).png" alt="photo">
-                <img src="/assets/img/logo (2).png" alt="photo">
-                <img src="/assets/img/logo (16).png" alt="photo">
-                <img src="/assets/img/logo (6).png" alt="photo">
-
-                <img src="/assets/img/logo (7).png" alt="photo">
-                <img src="/assets/img/logo (14).png" alt="photo">
-                <img src="/assets/img/logo (25).png" alt="photo">
-                <img src="/assets/img/logo (15).png" alt="photo">
-                <img src="/assets/img/logo (12).png" alt="photo">
-                <img src="/assets/img/logo (22).png" alt="photo">
-                <img src="/assets/img/logo (18).png" alt="photo">
-
-                <img src="/assets/img/logo (19).png" alt="photo">
-                <img src="/assets/img/logo (20).png" alt="photo">
-                <img src="/assets/img/logo (21).png" alt="photo">
-                <img src="/assets/img/logo (23).png" alt="photo">
-                <img src="/assets/img/logo (24).png" alt="photo">
-                <img src="/assets/img/logo (26).png" alt="photo">
-                <img src="/assets/img/logo (27).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (11).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (8).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (3).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (4).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (10).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (17).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (1).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (5).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (13).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (28).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (9).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (2).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (16).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (6).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (7).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (14).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (25).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (15).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (12).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (22).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (18).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (19).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (20).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (21).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (23).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (24).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (26).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (27).png" alt="photo">
             </div>
-            <div class="partner-btn"><span>Хочу стать вашим партнёром</span></div>
+            <!-- <div class="partner-btn"><span>Хочу стать вашим партнёром</span></div> -->
+           <div style="text-align: center;">
+              <div class="partner-btn"><span>Хочу стать вашим партнёром</span></div>
+           </div>
         </div>
         <div id="partners"></div>
     </section>
+    <!-- tugadi -->
+
     <section class="second-partners container-fluid">
         <div class="second-carousel owl-carousel">
             <div class="item">
@@ -523,6 +543,8 @@ include "elements/header.php";
         </div>
         <div id="partners"></div>
     </section>
+    <!-- tugadi -->
+
     <section class="third-partners container-fluid">
         <div class="third-carousel owl-carousel">
             <div class="item">
@@ -569,6 +591,8 @@ include "elements/header.php";
             </div>
         </div>
     </section>
+    <!-- tugadi -->
+
     <section class="section" data-anchor="section7">
         <section class="feedbacks" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -739,6 +763,9 @@ include "elements/header.php";
         </section>
         <div id="feedbacks"></div>
     </section>
+    <!-- tugadi -->
+
+    <!-- hali-tugamadi-knopkani-sozlashkere -->
     <section class="section" data-anchor="section8">
         <section class="contacts" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper">
@@ -749,7 +776,12 @@ include "elements/header.php";
                         <div class="inputs">
                             <input type="text" required placeholder="Имя" name="user_name">
                             <input type="text" class="phonenumber" required placeholder="Номер" name="user_phone">
-                            <button class="btn-default" type="submit">Оставить заявку</button>
+                            <!-- <button class="btn-default" type="submit">Оставить заявку</button> -->
+
+                            <button style="width: 100%; height: 100%;" class="btn" type="submit">
+                                <a>Оставить заявку</a>
+                           </button>   
+
                         </div>
                     </form>
                 </div>
@@ -764,7 +796,9 @@ include "elements/header.php";
             <!-- <div id="contacts"></div> -->
         </section>
         <div id="contacts"></div>
+    <!-- hali-tugamadi-knopkani-sozlashkere -->
     </section>
+    
     <section class="section" data-anchor="section9">
         <footer data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -830,7 +864,7 @@ include "elements/header.php";
                     <a href="#!"><img src="/assets/img/cert-5.png" alt="cert_mc"></a>
                 </div>
                 <div class="footer-links bottom">
-                    <p class="trademark">© MARKETING CONCEPT™ | 2017 - 2021</p>
+                    <p class="trademark">© MARKETING CONCEPT™ | 2017 - 2022</p>
                     <div class="socials">
                         <a href="https://t.me/marketingconcept_uz"><img src="/assets/icons/telegram-f.svg" alt="telegram_mc"></a>
                         <a href="https://instagram.com/marketingconcept.uz"><img src="/assets/icons/instagram-f.svg" alt="instagram_mc"></a>

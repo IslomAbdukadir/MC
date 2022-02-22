@@ -2,11 +2,8 @@
 <html lang="ru">
 
 <head>
-
     <?php
-
-   if ($page != 'form') include "elements/head.php"
-
+         if ($page != 'form') include "elements/head.php"
     ?>
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">

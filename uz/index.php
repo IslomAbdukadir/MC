@@ -1,20 +1,22 @@
 <?php
 
-include "elements/header.php";
-
-?>
-
-
+include "elements/header.php";?>
 
 <main id="fullpage">
     <section class="section" data-anchor="section1">
         <div class="introduction" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="rocket">
+
                 <div class="text">
-                    <h1 class="main-text">Marketing yechimlari bo'yicha global <span>ta'minotchi</span></h1>
-                    <h2>Sifat. Tezlik. Ijodkorlik </h2>
-                    <a href="https://t.me/mc1eam" class="btn">Portfolioni ko'rish</a>
+                    <button style="display: none;" class="btn"></button>
+                    <h1 class="main-text animate__animated animate__fadeInUp">Marketing yechimlari bo'yicha global <span>ta'minotchi</h1>
+                    <h2 class="animate__animated animate__fadeInUp animate__delay-1s">Sifat. Tezlik. Ijodkorlik</h2>
+
+                        <button style="width: 280px; height: 60px;" class="btn animate__animated animate__fadeInUp animate__delay-2s" type="submit">
+                            <a href="https://t.me/mc1eam">Portfolioni ko'rish</a>
+                        </button>
                 </div>
+
                 <div class="images">
                     <img src="/assets/img/cloud.png" alt="" class="cloud">
                     <img src="/assets/img/rocket.png" alt="" class="ufo">
@@ -28,56 +30,56 @@ include "elements/header.php";
                     <img src="/assets/img/circle-square.png" alt="" class="circle-square">
                 </div>
             </div>
-            <div class="numbers">
-                <div class="number ">
-                    <div class="img" id="rotate"><img src="/assets/img/pie-chart.png" alt=""></div>
-                    <div class="text animate__animated animate__fadeInUp animate__delay-1s">
+            <div onmouseenter="runCounter()" class="numbers">
+                <div class="number">
+                    <div class="img" id="rotate"><img src="/assets/img/pie-chart.png" alt="photo"></div>
+                    <div class="text animate__animated animate__fadeInLeft animate__delay-1s">
                         <div class="spans">
-                            <span class="running-number">300</span>
+                            <span data-value="300" class="running-number">0</span>
                             <span>+</span>
                         </div>
                         <p>Tugallangan loyihalar</p>
                     </div>
                 </div>
                 <div class="number">
-                    <div class="img" id="width"><img src="/assets/img/line-chart.png" alt=""></div>
-                    <div class="text animate__animated animate__fadeInUp animate__delay-2s">
+                    <div class="img" id="width"><img src="/assets/img/line-chart.png" alt="photo"></div>
+                    <div class="text animate__animated animate__fadeInDown animate__delay-2s">
                         <div class="spans">
-                            <span class="running-number">5</span>
+                            <span data-value="5" class="running-number">0</span>
                             <span>yil</span>
                         </div>
                         <p>Bozorda</p>
                     </div>
                 </div>
                 <div class="number">
-                    <div class="img" id="height"><img src="/assets/img/bar.png" alt=""></div>
-                    <div class="text animate__animated animate__fadeInUp animate__delay-3s">
+                    <div class="img" id="height"><img src="/assets/img/bar.png" alt="photo"></div>
+                    <div class="text animate__animated animate__fadeInUp animate__delay-2s">
                         <div class="spans">
-                            <span class="running-number">5</span>
+                            <span data-value="5" class="running-number">0</span>
                             <span>m+</span>
                         </div>
                         <p>Qamrov</p>
                     </div>
                 </div>
                 <div class="number">
-                    <div class="img" id="flip"><img src="/assets/img/coin.png" alt=""></div>
-                    <div class="text animate__animated animate__fadeInUp animate__delay-4s">
+                    <div class="img" id="flip"><img src="/assets/img/coin.png" alt="photo"></div>
+                    <div class="text animate__animated animate__fadeInRight animate__delay-1s">
                         <div class="spans">
-                            <span class="running-number">300</span>
+                            <span data-value="300" class="running-number">0</span>
                             <span>+</span>
                         </div>
                         <p>Hamkorlar</p>
                     </div>
                 </div>
-
             </div>
+
             <div class="numbers mobile">
                 <div class="inner">
                     <div class="number ">
                         <div class="img" id="rotate"><img src="/assets/img/pie-chart.png" alt=""></div>
-                        <div class="text animate__animated animate__fadeInUp animate__delay-1s">
+                        <div class="text animate__animated animate__fadeInLeft animate__delay-1s">
                             <div class="spans">
-                                <span class="running-number">300</span>
+                                <span data-value="300" class="running-number">0</span>
                                 <span>+</span>
                             </div>
                             <p>Tugallangan loyihalar</p>
@@ -85,9 +87,9 @@ include "elements/header.php";
                     </div>
                     <div class="number">
                         <div class="img" id="width"><img src="/assets/img/line-chart.png" alt=""></div>
-                        <div class="text animate__animated animate__fadeInUp animate__delay-2s">
+                        <div class="text animate__animated animate__fadeInDown animate__delay-2s">
                             <div class="spans">
-                                <span class="running-number">5</span>
+                                <span data-value="5" class="running-number">0</span>
                                 <span>yil</span>
                             </div>
                             <p>Bozorda</p>
@@ -97,9 +99,9 @@ include "elements/header.php";
                 <div class="inner">
                     <div class="number">
                         <div class="img" id="height"><img src="/assets/img/bar.png" alt=""></div>
-                        <div class="text animate__animated animate__fadeInUp animate__delay-3s">
+                        <div class="text animate__animated animate__fadeInUp animate__delay-2s">
                             <div class="spans">
-                                <span class="running-number">5</span>
+                                <span data-value="5" class="running-number">0</span>
                                 <span>m+</span>
                             </div>
                             <p>Qamrov</p>
@@ -107,9 +109,9 @@ include "elements/header.php";
                     </div>
                     <div class="number">
                         <div class="img" id="flip"><img src="/assets/img/coin.png" alt=""></div>
-                        <div class="text animate__animated animate__fadeInUp animate__delay-4s">
+                        <div class="text animate__animated animate__fadeInRight animate__delay-1s">
                             <div class="spans">
-                                <span class="running-number">300</span>
+                                <span data-value="300" class="running-number">0</span>
                                 <span>+</span>
                             </div>
                             <p>Hamkorlar</p>
@@ -119,8 +121,10 @@ include "elements/header.php";
 
             </div>
         </div>
+
         <div id="home"></div>
     </section>
+
     <section class="section" data-anchor="section2">
         <div class="about-text">
             <h4 class="subtitle">Biz haqimizda</h4>
@@ -130,8 +134,8 @@ include "elements/header.php";
                         Marketing Concept - marketing yechimlarining global ta'minotchisi
                     </p> -->
                     <div class="boss-told">
-                        <p class="inline-item"> Biz -
-                            O‘zbekistondagi eng yuqori reytingga ega, natijaga yo‘naltirilgan ijodiy yechimlarga ixtisoslashgan
+                        <p class="inline-item"> <span class="about__bold__text">Biz -
+                            O‘zbekistondagi eng yuqori reytingga ega,</span> natijaga yo‘naltirilgan ijodiy yechimlarga ixtisoslashgan
                         <h2 class="inline-item">raqamli agentlikmiz</h2>
                         Biz
                         <h6 class="inline-item">foydani ko'paytirish</h6>
@@ -155,6 +159,8 @@ include "elements/header.php";
         </div>
         <div id="about"></div>
     </section>
+    <!-- tugadi -->
+
     <section class="section" data-anchor="section3">
         <section class="services" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -217,8 +223,11 @@ include "elements/header.php";
                             <p class="animate__animated animate__fadeInUp  ">Reklama, tasvir, taqdimot va boshqa videolarni yaratish va ishlab chiqish jarayoni. Hamma yirik kompaniyalarda har xil turdagi videolar bor, nega siz ham ular kabi bo'lmaysiz? </p>
                         </div>
                     </div>
-                    <a href="https://t.me/mc1eam" class="btn-default">Portfolio</a>
+                    <button style="width: 300px; height: 55px;"  class="btn" type="submit">
+                        <a class="animate__animated animate__fadeInUp" href="https://t.me/mc1eam">Portfolio</a>
+                    </button>
                 </div>
+
                 <div class="carousel-wrapper">
                     <h2>Наши услуги</h2>
                     <div class="service-carousel owl-carousel">
@@ -306,6 +315,8 @@ include "elements/header.php";
         </section>
         <div id="services"></div>
     </section>
+    <!-- tugadi -->
+
     <section class="section" data-anchor="section4">
         <section class="about" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -337,18 +348,22 @@ include "elements/header.php";
                         <h4>So'rov qoldiring va mutahassislarimiz siz bilan bog'lanishadi</h4>
                         <input type="text" required placeholder="Ismingiz" name="user_name">
                         <input type="text" required placeholder="Raqamingiz" name="user_phone">
-                        <button class="btn-default" type="submit">Qo'ng'iroq buyurtmasi</button>
+                        <button style="width: 100%; height: 100%;" class="btn" type="submit">
+                             <a href="https://t.me/mc1eam">Qo'ng'iroq buyurtmasi</a>
+                        </button>
                     </form>
                 </div>
             </div>
             <div id="about"></div>
         </section>
     </section>
+    <!-- tugadi -->
+
     <section class="section" data-anchor="section5">
         <section class="our-team" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper col-xxl-10 col-xl-11 col-lg-12 col-md-12 col-sm-12 col-12">
                 <div class="text">
-                    <h2>Jamoa</h2>
+                    <span class="mc-team">Jamoa</span>
                     <p>Jamoamiz nafaqat O'zbekistonni, balki butun dunyoni zabt etishga tayyor, o'z sohasidagi ambitsiyali va maqsadli professionallardan iborat.</p>
                 </div>
                 <div class="member-info">
@@ -388,54 +403,43 @@ include "elements/header.php";
                     </div>
                     <div class="members">
                         <div class="member animate__animated animate__fadeInUp">
-                            <h4>Timur</h4>
-                            <h5>Prezident</h5>
+                            <h4 class="team-owner">Timur</h4>
                             <p>Prezidentimiz. Ajoyib biznes muzokaralari ko'nikmalariga ega. Siz u bilan uchrashuvga kira olmaysiz. Biroq, agar siz hali ham muvaffaqiyatga erishsangiz, u sizning har qanday fikr va takliflaringizni tinglaydi.</p>
                         </div>
                         <div class="member animate__animated animate__fadeInUp active">
-                            <h4>Amina</h4>
-                            <h5>Marketing departamenti rahbari</h5>
+                            <h4 class="team-owner">Amina</h4>
                             <p>Bizning yo'naltiruvchi nurimiz va professional marketologimiz. U quvnoq qizdan qat'iy rahbarga aylanishni yaxshi biladi. U iste'mol bozorini bir necha kun tinimsiz tahlil qiladi, marketing strategiyalarini amalga oshiradi va reklama kampaniyalarini olib boradi. U har qanday vaqtda yordamga kelishga tayyor.</p>
                         </div>
                         <div class="member animate__animated animate__fadeInUp">
-                            <h4>Abdukarim</h4>
-                            <h5>Bosh direktor</h5>
+                            <h4 class="team-owner">Abdukarim</h4>
                             <p>Kayfiyatni ko'tarish qobiliyatiga ega bo'lgan jamoamizdagi eng sirli xodim. U har doim ishga tayyor va hech qachon kechikmaydi. U sanoat oshxonasining fokuslarini biladi va ish joyida uxlamaydi. "Siz ishga tayyormisiz?" degan savolga u ishonch bilan javob beradi: "Ehtimol!"</p>
                         </div>
                         <div class="member animate__animated animate__fadeInUp">
-                            <h4>Akrom</h4>
-                            <h5>Dizayn departamenti rahbari</h5>
+                            <h4 class="team-owner">Akrom</h4>
                             <p>Umuman olganda, u juda ko'p ajoyib g'oyalarga ega, kelajagi istiqbolli bo'lgan original xodim. U, albatta, Ilon Mask emas, lekin uning loyihalari ham "uchishda" qolishmaydi</p>
                         </div>
                         <div class="member animate__animated animate__fadeInUp">
-                            <h4>Dilnura</h4>
-                            <h5>SMM departamenti rahbari</h5>
+                            <h4 class="team-owner">Dilnura</h4>
                             <p>Bizning nozik ijodkorimiz. Hamma mijozlarning sevimlisi, chunki u tinglashni va eshitishni biladi. U ulkan tasavvurga ega va shu bilan birga juda jiddiy matnlarni yozadi. Tashqi ko'rinishida yumshoqlik, iste'dod va mas'uliyatning uyg'un ko'rinishi, uning qalbida esa shafqatsiz SMM mutaxassisi mujassam.</p>
                         </div>
                         <div class="member animate__animated animate__fadeInUp">
-                            <h4>Darya</h4>
-                            <h5>Mijozlar bilan ishlash departamenti rahbari</h5>
+                            <h4 class="team-owner">Darya</h4>
                             <p>Ofisdagi har bir xodimning ishi unga va ertalab qancha chashka qahva ichganiga bog'liq. Haqiqiy sotuvchi, o'z ishini sevadi va uni san'at darajasiga yetkazgan. Hatto sizga va qo'shningizga fil sotishi mumkin. "Istalgan vaqtda ofisdan tabiatga qochishga tayyorman: noutbuk, Internet va sendvichli ryukzak - baxtli bo'lish uchun yana nima kerak?"</p>
                         </div>
                         <div class="member animate__animated animate__fadeInUp">
-                            <h4>Jasur</h4>
-                            <h5>Veb dasturchi</h5>
+                            <h4 class="team-owner">Jasur</h4>
                             <p>Bizning aqlli strategimiz. Futbol va aniq fanlar ihlosmandi. Ko'pincha veb-sayt yaratish diqqatni jamlashni talab qiladi. Uning ishining mohiyati - grid, float, BEM, HTML, CSS texnologiyalaridan foydalanib, muvaffaqiyatli sayt yaratish. Sifatli veb-saytni ishlab chiqish bo'yicha webmaster degan ta'rif aynan unga mos.</p>
                         </div>
                         <div class="member animate__animated animate__fadeInUp">
-                            <h4>Avaz</h4>
-                            <h5>Grafik dizayner</h5>
+                            <h4 class="team-owner">Avazbek</h4>
                             <p>Har doim biror yumush bilan band xodimimiz. U o‘z ishi bilan kuch-g‘ayratga ega ekanligini va ijod qilishga intilishi zo‘r ekanini ko'rsatadi. Butun jamoani rag'batlantiradi. U muloyimdek ko'rinadi, lekin bu, albatta, yolg'on.</p>
                         </div>
-
                         <div class="member animate__animated animate__fadeInUp">
-                            <h4>Zuxra</h4>
-                            <h5>Loyiha menejeri</h5>
+                            <h4 class="team-owner">Zuxra</h4>
                             <p>Eng yosh xodimimiz, lekin iste'dod va ijodkorlik jihatidan boshqalardan kam emas. Reaktiv rejimda hamma yangi narsalarni suratga oladi. Chet el tendensiyalaridan ilhomlanib va ajoyib g'oyalarni taklif qiladi.</p>
                         </div>
                         <div class="member animate__animated animate__fadeInUp">
-                            <h4>Umid</h4>
-                            <h5>Art direktor</h5>
+                            <h4 class="team-owner">Umid</h4>
                             <p>Bizning oltinga teng xodimimiz. Ish paytida u hamkasblarining fikrini faqat o'zi bilan band qiladi. Har doim kerakli vazifani bajarmaslik uchun yuzta sabab topa oladigan ixtirochi.</p>
                         </div>
                     </div>
@@ -449,47 +453,47 @@ include "elements/header.php";
         </section>
         <div id="team"></div>
     </section>
+    <!-- tugadi -->
+
     <section class="section" data-anchor="section6">
         <div class="partners" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <h2>Hamkorlar</h2>
             <div class="logos">
-
-                <img src="/assets/img/logo (11).png" alt="">
-                <img src="/assets/img/logo (8).png" alt="">
-                <img src="/assets/img/logo (3).png" alt="">
-                <img src="/assets/img/logo (4).png" alt="">
-                <img src="/assets/img/logo (10).png" alt="">
-                <img src="/assets/img/logo (17).png" alt="">
-                <img src="/assets/img/logo (1).png" alt="">
-
-                <img src="/assets/img/logo (5).png" alt="">
-                <img src="/assets/img/logo (13).png" alt="">
-                <img src="/assets/img/logo (28).png" alt="">
-                <img src="/assets/img/logo (9).png" alt="">
-                <img src="/assets/img/logo (2).png" alt="">
-                <img src="/assets/img/logo (16).png" alt="">
-                <img src="/assets/img/logo (6).png" alt="">
-
-                <img src="/assets/img/logo (7).png" alt="">
-                <img src="/assets/img/logo (14).png" alt="">
-                <img src="/assets/img/logo (25).png" alt="">
-                <img src="/assets/img/logo (15).png" alt="">
-                <img src="/assets/img/logo (12).png" alt="">
-                <img src="/assets/img/logo (22).png" alt="">
-                <img src="/assets/img/logo (18).png" alt="">
-
-                <img src="/assets/img/logo (19).png" alt="">
-                <img src="/assets/img/logo (20).png" alt="">
-                <img src="/assets/img/logo (21).png" alt="">
-                <img src="/assets/img/logo (23).png" alt="">
-                <img src="/assets/img/logo (24).png" alt="">
-                <img src="/assets/img/logo (26).png" alt="">
-                <img src="/assets/img/logo (27).png" alt="">
+                <img class="partners-photo" src="/assets/img/logo (11).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (8).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (3).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (4).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (10).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (17).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (1).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (5).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (13).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (28).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (9).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (2).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (16).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (6).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (7).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (14).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (25).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (15).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (12).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (22).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (18).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (19).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (20).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (21).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (23).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (24).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (26).png" alt="photo">
+                <img class="partners-photo" src="/assets/img/logo (27).png" alt="photo">
             </div>
             <div class="partner-btn"><span>Hamkorimiz bo'ling</span></div>
         </div>
         <div id="partners"></div>
     </section>
+    <!-- tugadi -->
+
     <section class="second-partners container-fluid">
         <div class="second-carousel owl-carousel">
             <div class="item">
@@ -537,6 +541,8 @@ include "elements/header.php";
         </div>
         <div id="partners"></div>
     </section>
+    <!-- tugadi -->
+
     <section class="third-partners container-fluid">
         <div class="third-carousel owl-carousel">
             <div class="item">
@@ -583,6 +589,8 @@ include "elements/header.php";
             </div>
         </div>
     </section>
+    <!-- tugadi -->
+
     <section class="section" data-anchor="section7">
         <section class="feedbacks" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -749,6 +757,9 @@ include "elements/header.php";
         </section>
         <div id="feedbacks"></div>
     </section>
+    <!-- tugadi -->
+
+    <!-- hali-tugamadi-knopkani-sozlashkere -->
     <section class="section" data-anchor="section8">
         <section class="contacts" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper">
@@ -759,14 +770,15 @@ include "elements/header.php";
                         <div class="inputs">
                             <input type="text" required placeholder="Ismingiz" name="user_name">
                             <input type="text" required placeholder="Raqamingiz" name="user_phone">
-                            <button class="btn-default" type="submit">So'rov qoldirish</button>
+                            <button style="width: 100%; height: 100%;" class="btn" type="submit">
+                                <a>So'rov qoldirish</a>
+                           </button>   
                         </div>
                     </form>
                 </div>
                 <div class="map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.3384734773385!2d69.30105614961003!3d41.27973743877361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef564e990f5b7%3A0x54401dfd1e4f1d0f!2sMarketing%20Concept!5e0!3m2!1sru!2s!4v1628069447126!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
-
             </div>
             <div class="p-circles" id="scene-five">
                 <div data-depth="0.5" class="circle-blue"></div>
@@ -775,6 +787,9 @@ include "elements/header.php";
         </section>
         <div id="contacts"></div>
     </section>
+    <!-- hali-tugamadi-knopkani-sozlashkere -->
+
+
     <section class="section" data-anchor="section9">
         <footer data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -806,7 +821,7 @@ include "elements/header.php";
                                     <a href="tel:+998975888855">+998 97 588 88 55</a>
                                 </div>
                                 <div class="link-group">
-                                    <a href="tel:+998975888556">+998 97 588 85 56</a>
+                                    <a href="tel:+998975588556">+998 97 558 85 56</a>
                                     <a href="tel:+998975588855">+998 97 558 88 55</a>
                                 </div>
                             </div>
@@ -840,7 +855,7 @@ include "elements/header.php";
                     <a href="#!"><img src="/assets/img/cert-5.png" alt="cert_mc"></a>
                 </div>
                 <div class="footer-links bottom">
-                    <p class="trademark">© MARKETING CONCEPT™ | 2017 - 2021</p>
+                    <p class="trademark">© MARKETING CONCEPT™ | 2017 - 2022</p>
                     <div class="socials">
                         <a href="https://t.me/marketingconcept_uz"><img src="/assets/icons/telegram-f.svg" alt="telegram_mc"></a>
                         <a href="https://instagram.com/marketingconcept.uz"><img src="/assets/icons/instagram-f.svg" alt="instagram_mc"></a>
