@@ -25,6 +25,7 @@ include "../../../elements/header.php";
   }
   h3 {
     text-align: center;
+    color: white;
   }
 </style>
 

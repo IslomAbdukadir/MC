@@ -4,7 +4,7 @@ include "elements/header.php";
 
 <main id="fullpage">
     <section class="section" data-anchor="section1">
-        <div class="introduction" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+        <div class="introduction max__height" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="rocket">
                 <div class="text">
                     <button style="display: none;" class="btn"></button>
@@ -18,7 +18,7 @@ include "elements/header.php";
 
                 <div class="images">
                     <img src="/assets/img/cloud.png" alt="photo" class="cloud">
-                    <img src="/assets/img/rocket.png" alt="photo" class="ufo">
+                    <img src="/assets/img/rocket-min.png" alt="photo" class="ufo">
                     <img src="/assets/img/cloud-up.png" alt="photo" class="cloud-up">
                     <img src="/assets/img/cloud-down.png" alt="photo" class="cloud-down">
                     <img src="/assets/img/sales.png" alt="photo" class="graph">
@@ -123,6 +123,7 @@ include "elements/header.php";
         <div id="home"></div>
     </section>
 
+    <!-- About__section -->
     <section class="section" data-anchor="section2">
         <div class="about-text">
             <h4 class="subtitle">О нас</h4>
@@ -161,7 +162,7 @@ include "elements/header.php";
     </section>
     <!-- tugadi -->
 
-
+    <!-- Фирменный стиль -->
     <section class="section" data-anchor="section3">
         <section class="services" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -317,6 +318,7 @@ include "elements/header.php";
     </section>
     <!-- tugadi -->
 
+    <!-- marketing_tashkente -->
     <section class="section" data-anchor="section4">
         <section class="about" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -348,8 +350,11 @@ include "elements/header.php";
                         <h4>Оставьте заявку, и наши специалисты свяжутся с вами в ближайшее время</h4>
                         <input type="text" required placeholder="Имя" name="user_name">
                         <input type="text" required placeholder="Номер" class="phonenumber" name="user_phone">
-                        <button style="width: 100%; height: 100%;" class="btn" type="submit">
+                        <!-- <button style="width: 100%; height: 100%;" class="btn" type="submit">
                              <a href="https://t.me/mc1eam">Заказать звонок</a>
+                        </button> -->
+                        <button class="btn" type="submit">
+                            <a>Заказать звонок</a>
                         </button>
                     </form>
                 </div>
@@ -358,12 +363,13 @@ include "elements/header.php";
     </section>
     <!-- tugadi -->
 
+    <!-- team_section -->
     <section class="section" data-anchor="section5">
-        <section class="our-team" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+        <section class="our-team max__height" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper col-xxl-10 col-xl-11 col-lg-12 col-md-12 col-sm-12 col-12">
                 <div class="text">
                     <span class="mc-team">Команда</span>
-                    <p>Она состоит из амбициозных и целеустремленных профессионалов в своем деле, готовых покорять не только Узбекистан, но и весь мир.</p>
+                    <p class="team__subtitle">Она состоит из амбициозных и целеустремленных профессионалов в своем деле, готовых покорять не только Узбекистан, но и весь мир.</p>
                 </div>
                 <div class="member-info">
                     <div class="carousel-wrapper">
@@ -454,6 +460,7 @@ include "elements/header.php";
     </section>
     <!-- tugadi -->
 
+    <!-- partnyors_section -->
     <section class="section" data-anchor="section6">
         <div class="partners" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <h2>Партнёры</h2>
@@ -593,6 +600,7 @@ include "elements/header.php";
     </section>
     <!-- tugadi -->
 
+    <!-- Отзывы -->
     <section class="section" data-anchor="section7">
         <section class="feedbacks" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -798,7 +806,7 @@ include "elements/header.php";
         <div id="contacts"></div>
     <!-- hali-tugamadi-knopkani-sozlashkere -->
     </section>
-    
+
     <section class="section" data-anchor="section9">
         <footer data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">

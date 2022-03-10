@@ -19,7 +19,7 @@ include "elements/header.php";?>
 
                 <div class="images">
                     <img src="/assets/img/cloud.png" alt="" class="cloud">
-                    <img src="/assets/img/rocket.png" alt="" class="ufo">
+                    <img src="/assets/img/rocket-min.png" alt="" class="ufo">
                     <img src="/assets/img/cloud-up.png" alt="" class="cloud-up">
                     <img src="/assets/img/cloud-down.png" alt="" class="cloud-down">
                     <img src="/assets/img/sales.png" alt="" class="graph">
@@ -317,6 +317,7 @@ include "elements/header.php";?>
     </section>
     <!-- tugadi -->
 
+    <!-- marketing_tashkente -->
     <section class="section" data-anchor="section4">
         <section class="about" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -345,11 +346,11 @@ include "elements/header.php";?>
                 </div>
                 <div class="form">
                     <form method="POST" action="/assets/libs/telegram_form/mcsenduz.php">
-                        <h4>So'rov qoldiring va mutahassislarimiz siz bilan bog'lanishadi</h4>
+                        <h4>So'rov qoldiring va mutahassistlarimiz siz bilan bog'lanishadi</h4>
                         <input type="text" required placeholder="Ismingiz" name="user_name">
                         <input type="text" required placeholder="Raqamingiz" name="user_phone">
-                        <button style="width: 100%; height: 100%;" class="btn" type="submit">
-                             <a href="https://t.me/mc1eam">Qo'ng'iroq buyurtmasi</a>
+                        <button class="btn" type="submit">
+                            <a>Qo'ng'iroq buyurtmasi</a>
                         </button>
                     </form>
                 </div>
@@ -358,7 +359,8 @@ include "elements/header.php";?>
         </section>
     </section>
     <!-- tugadi -->
-
+    
+    <!-- komanda_section -->
     <section class="section" data-anchor="section5">
         <section class="our-team" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="wrapper col-xxl-10 col-xl-11 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -455,6 +457,7 @@ include "elements/header.php";?>
     </section>
     <!-- tugadi -->
 
+    <!-- partnyors_section -->
     <section class="section" data-anchor="section6">
         <div class="partners" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <h2>Hamkorlar</h2>
@@ -769,10 +772,10 @@ include "elements/header.php";?>
                         <p>Marketing Concept kompaniyasi xizmatlari bilan batafsil tanishish uchun quyidagi formani to'ldiring</p>
                         <div class="inputs">
                             <input type="text" required placeholder="Ismingiz" name="user_name">
-                            <input type="text" required placeholder="Raqamingiz" name="user_phone">
-                            <button style="width: 100%; height: 100%;" class="btn" type="submit">
-                                <a>So'rov qoldirish</a>
-                           </button>   
+                            <input type="text" required placeholder="Raqamingiz" name="user_phone">                        
+                           <button style="width:100%;" class="btn" type="submit">
+                            <a>So'rov qoldirish</a>
+                        </button>
                         </div>
                     </form>
                 </div>
@@ -788,7 +791,6 @@ include "elements/header.php";?>
         <div id="contacts"></div>
     </section>
     <!-- hali-tugamadi-knopkani-sozlashkere -->
-
 
     <section class="section" data-anchor="section9">
         <footer data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
@@ -882,3 +884,7 @@ include "elements/header.php";?>
         }
     });
 </script>
+
+<!-- <button class="btn" type="submit">
+                            <a>Заказать звонок</a>
+                        </button> -->

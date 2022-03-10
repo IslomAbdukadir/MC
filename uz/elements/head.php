@@ -42,7 +42,7 @@
 </script>
 
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
+<script>
     (function(m, e, t, r, i, k, a) {
         m[i] = m[i] || function() {
             (m[i].a = m[i].a || []).push(arguments)
@@ -59,9 +59,9 @@
         webvisor: true
     });
 </script>
-<noscript>
-    <div><img src="https://mc.yandex.ru/watch/65138371" style="position:absolute; left:-9999px;" alt="" /></div>
-</noscript>
+<script>
+    <div><img src="https://mc.yandex.ru/watch/65138371" style="position:absolute; left:-9999px;" alt="yandex" /></div>
+</script>
 <!-- /Yandex.Metrika counter -->
 
 
@@ -81,7 +81,7 @@
 
 <!-- Facebook Pixel Code -->
 <script>
-    ! function(f, b, e, v, n, t, s) {
+    !function(f, b, e, v, n, t, s) {
         if (f.fbq) return;
         n = f.fbq = function() {
             n.callMethod ?
@@ -102,11 +102,11 @@
     fbq('init', '644575839742516');
     fbq('track', 'PageView');
 </script>
-<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=644575839742516&ev=PageView&noscript=1" />
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=644575839742516&ev=PageView&noscript=1" alt="facebook" />
 </noscript>
-<!-- End Facebook Pixel Code -->
+ <!-- End Facebook Pixel Code -->
 
-<!-- Load Facebook SDK for JavaScript -->
+ <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
     <script>
       window.fbAsyncInit = function() {
@@ -124,15 +124,16 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
- <!-- Your Chat Plugin code -->
+  <!-- Your Chat Plugin code -->
+
  <div class="fb-customerchat"
-        attribution=setup_tool
+        attribution="setup_tool"
         page_id="463131994037309"
         theme_color="#94d600"
         logged_in_greeting="Salom! Sizga qanday yordam bera olamiz"
         logged_out_greeting="Salom! Sizga qanday yordam bera olamiz">
-    </div>
+</div>
 
 
-<!-- <script data-ad-client="ca-pub-5222724354511018" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
-<!-- <script data-ad-client="ca-pub-5222724354511018" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+<script data-ad-client="ca-pub-5222724354511018" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+// <!-- <script data-ad-client="ca-pub-5222724354511018" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->

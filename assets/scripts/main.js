@@ -156,17 +156,18 @@ $(document).ready(function () {
   });
 
   $(".team-carousel").owlCarousel({
-    // items: 5,
-    dots: false,
-    nav: false,
+    items: 5,
     loop: true,
-    autoplay: true,
-    mouseDrag: true,
     center: true,
+    mouseDrag: true,
+    touchDrag: false,
+    nav: false,
+    dots: false,
+    autoplay: true,
     smartSpeed: 1000,
     autoplayHoverPause: true,
-    // rewind: false,
-    // touchDrag: true,
+    rewind: false,
+
     responsive: {
       0: {
         items: 3,

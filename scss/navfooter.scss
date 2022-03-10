@@ -130,6 +130,19 @@ html {
     transform: translate(0px, 0px);
   }
 }
+
+@keyframes flyRocket {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(7px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 @keyframes rocket3 {
   0% {
     transform: translate(0px, 0px);
@@ -526,7 +539,7 @@ body {
         color: white;
       }
       .socials a img {
-        filter: invert(1) grayscale(1) brightness();
+        filter: invert(1) grayscale(1) brightness(1);
       }
       & > a img {
         filter: invert(1) grayscale(1) brightness(5);
@@ -886,9 +899,7 @@ header {
       height: 360px;
       right: 10%;
       top: 0;
-      animation-name: rocket1;
-      animation-fill-mode: forwards;
-      animation-duration: 6s;
+      animation: rocket1 6s forwards, flyRocket 4s 6s forwards infinite;
     }
     .cloud {
       width: 230px;
@@ -3167,3 +3178,118 @@ footer {
     right: 55%;
   }
 }
+
+@media (max-height: 900px) {
+  .section {
+    margin: 30px auto;
+
+    .introduction {
+      height: 760px;
+    }
+
+    .partners {
+      .logos {
+        .partners-photo {
+          width: 160px;
+          height: 160px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-height: 850px) {
+  .section {
+    margin: 30px auto;
+
+    .introduction {
+      height: 630px;
+    }
+    .about-mc {
+      height: 550px;
+    }
+    .our-team {
+      padding: 50px 0 50px;
+      .member-info {
+        height: 370px;
+      }
+    }
+    .partners {
+      .logos {
+        .partners-photo {
+          width: 160px;
+          object-fit: contain;
+          height: 140px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-height: 750px) {
+  .section {
+    margin: 30px auto;
+
+    .introduction {
+      height: 550px;
+    }
+    .about-mc {
+      height: 500px;
+    }
+    .our-team {
+      padding: 40px 0 40px;
+      .member-info {
+        height: 360px;
+      }
+      .team__subtitle {
+        margin: 10px 0 !important;
+      }
+    }
+    .partners {
+      .logos {
+        .partners-photo {
+          width: 120px;
+          object-fit: cover;
+          height: 140px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-height: 700px) {
+  .section {
+    margin: 30px auto;
+
+    .introduction {
+      height: 550px;
+    }
+    .about-mc {
+      height: 480px;
+    }
+    .our-team {
+      padding: 0;
+      .member-info {
+        height: 360px;
+      }
+      .team__subtitle {
+        margin: 10px 0 !important;
+      }
+    }
+    .partners {
+      .logos {
+        .partners-photo {
+          width: 120px;
+          object-fit: cover;
+          height: 140px;
+        }
+      }
+    }
+  }
+}
+
+// @media (max-height: 800px) {
+//   .section {
+//     margin: 150px auto auto;
+//   }
+// }

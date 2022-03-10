@@ -46,13 +46,13 @@
                     </span>
                 </button>
             </div>
+
             <div class="socials" data-aos="fade-down">
-            <div class="partner-btn">So'rov qoldiring</div>
+                <div class="partner-btn">So'rov qoldiring</div>
                 <!-- <a href="https://t.me/marketingconcept_uz"><img src="/assets/icons/telegram-f.svg" alt=""></a>
                 <a href="https://www.instagram.com/marketingconcept.uz/"><img src="/assets/icons/instagram-f.svg" alt=""></a>
                 <a href="https://www.facebook.com/MarketingConcept.uz"><img src="/assets/icons/facebook-f.svg" alt=""></a> -->
             </div>
-
 
 
             <ul class="links">

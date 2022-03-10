@@ -25,6 +25,12 @@ foreach ($arr as $key => $value) {
 
 $sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}", "r");
 
+if ($sendToTelegram) {
+  header('Location: success.php');
+} else {
+  header('Location: error_form.php');
+}
+
 
 // require 'PHPMailer.php';
 // require 'SMTP.php';
@@ -77,11 +83,6 @@ $sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_i
 // } else {
 //   header('Location: error_form.php');
 // }
-if ($sendToTelegram) {
-  header('Location: success.php');
-} else {
-  header('Location: error_form.php');
-}
 
 ?>
 
