@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('./Futura/FuturaLightC.eot');
+    src: url('./Futura/FuturaLightC.eot?#iefix') format('embedded-opentype'),
+        url('./Futura/FuturaLightC.woff2') format('woff2'),
+        url('./Futura/FuturaLightC.woff') format('woff'),
+        url('./Futura/FuturaLightC.ttf') format('truetype'),
+        url('./Futura/FuturaLightC.otf') format('opentype'),
+        url('./Futura/FuturaLightC.svg#FuturaLightC') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('./Futura/FuturaLightC-Italic.eot');
+    src: url('./Futura/FuturaLightC-Italic.eot?#iefix') format('embedded-opentype'),
+        url('./Futura/FuturaLightC-Italic.woff2') format('woff2'),
+        url('./Futura/FuturaLightC-Italic.woff') format('woff'),
+        url('./Futura/FuturaLightC-Italic.ttf') format('truetype'),
+        url('./Futura/FuturaLightC-Italic.otf') format('opentype'),
+        url('./Futura/FuturaLightC-Italic.svg#FuturaLightC-Italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('./Futura/FuturaBookC.eot');
+    src: url('./Futura/FuturaBookC.eot?#iefix') format('embedded-opentype'),
+        url('./Futura/FuturaBookC.woff2') format('woff2'),
+        url('./Futura/FuturaBookC.woff') format('woff'),
+        url('./Futura/FuturaBookC.ttf') format('truetype'),
+        url('./Futura/FuturaBookC.otf') format('opentype'),
+        url('./Futura/FuturaBookC.svg#FuturaBookC') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('./Futura/FuturaBookC-Italic.eot');
+    src: url('./Futura/FuturaBookC-Italic.eot?#iefix') format('embedded-opentype'),
+        url('./Futura/FuturaBookC-Italic.woff2') format('woff2'),
+        url('./Futura/FuturaBookC-Italic.woff') format('woff'),
+        url('./Futura/FuturaBookC-Italic.ttf') format('truetype'),
+        url('./Futura/FuturaBookC-Italic.otf') format('opentype'),
+        url('./Futura/FuturaBookC-Italic.svg#FuturaBookC-Italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('./Futura/FuturaMediumC.eot');
+    src: url('./Futura/FuturaMediumC.eot?#iefix') format('embedded-opentype'),
+        url('./Futura/FuturaMediumC.woff2') format('woff2'),
+        url('./Futura/FuturaMediumC.woff') format('woff'),
+        url('./Futura/FuturaMediumC.ttf') format('truetype'),
+        url('./Futura/FuturaMediumC.otf') format('opentype'),
+        url('./Futura/FuturaMediumC.svg#FuturaMediumC') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('./Futura/FuturaMediumC-Italic.eot');
+    src: url('./Futura/FuturaMediumC-Italic.eot?#iefix') format('embedded-opentype'),
+        url('./Futura/FuturaMediumC-Italic.woff2') format('woff2'),
+        url('./Futura/FuturaMediumC-Italic.woff') format('woff'),
+        url('./Futura/FuturaMediumC-Italic.ttf') format('truetype'),
+        url('./Futura/FuturaMediumC-Italic.otf') format('opentype'),
+        url('./Futura/FuturaMediumC-Italic.svg#FuturaMediumC-Italic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('./Futura/FuturaDemiC.eot');
+    src: url('./Futura/FuturaDemiC.eot?#iefix') format('embedded-opentype'),
+        url('./Futura/FuturaDemiC.woff2') format('woff2'),
+        url('./Futura/FuturaDemiC.woff') format('woff'),
+        url('./Futura/FuturaDemiC.ttf') format('truetype'),
+        url('./Futura/FuturaDemiC.otf') format('opentype'),
+        url('./Futura/FuturaDemiC.svg#FuturaDemiC') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('./Futura/FuturaDemiC-Italic.eot');
+    src: url('./Futura/FuturaDemiC-Italic.eot?#iefix') format('embedded-opentype'),
+        url('./Futura/FuturaDemiC-Italic.woff2') format('woff2'),
+        url('./Futura/FuturaDemiC-Italic.woff') format('woff'),
+        url('./Futura/FuturaDemiC-Italic.ttf') format('truetype'),
+        url('./Futura/FuturaDemiC-Italic.otf') format('opentype'),
+        url('./Futura/FuturaDemiC-Italic.svg#FuturaDemiC-Italic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}

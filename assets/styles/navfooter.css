@@ -2819,7 +2819,7 @@ footer .wrapper .footer-links:last-child {
     max-width: unset;
     position: relative;
     width: 90% !important;
-    margin: auto;
+    margin: 0 auto 100px auto;
   }
   .section #home,
   .section #services,
@@ -3276,7 +3276,7 @@ footer .wrapper .footer-links:last-child {
 @media (max-width: 576px) {
   .section {
     width: 100% !important;
-    margin: 0 auto !important;
+    margin: 70px auto !important;
   }
   @-webkit-keyframes cloud1 {
     0% {
@@ -3496,6 +3496,9 @@ footer .wrapper .footer-links:last-child {
   }
   .about-text .about-mc .info .highlighted.last {
     padding-top: 15px;
+  }
+  .about-text .about-mc .img img {
+    width: 90%;
   }
   .services {
     margin: 30px 20px;
@@ -3851,12 +3854,15 @@ footer .wrapper .footer-links:last-child {
   }
 }
 
-@media (max-height: 900px) {
+@media (min-width: 1025px) and (min-height: 900px) {
   .section {
-    margin: 30px auto;
+    margin: 50px auto;
   }
   .section .introduction {
     height: 760px;
+  }
+  .section .about-mc {
+    height: 650px;
   }
   .section .partners .logos .partners-photo {
     width: 160px;
@@ -3864,15 +3870,15 @@ footer .wrapper .footer-links:last-child {
   }
 }
 
-@media (max-height: 850px) {
+@media (min-width: 1025px) and (min-height: 850px) {
   .section {
-    margin: 30px auto;
+    margin: 50px auto;
   }
   .section .introduction {
     height: 630px;
   }
   .section .about-mc {
-    height: 550px;
+    height: 600px;
   }
   .section .our-team {
     padding: 50px 0 50px;
@@ -3888,15 +3894,12 @@ footer .wrapper .footer-links:last-child {
   }
 }
 
-@media (max-height: 750px) {
+@media (min-width: 1025px) and (min-height: 750px) {
   .section {
-    margin: 30px auto;
+    margin: 50px auto;
   }
   .section .introduction {
-    height: 550px;
-  }
-  .section .about-mc {
-    height: 500px;
+    height: 650px;
   }
   .section .our-team {
     padding: 40px 0 40px;
@@ -3915,15 +3918,15 @@ footer .wrapper .footer-links:last-child {
   }
 }
 
-@media (max-height: 700px) {
+@media (min-width: 1025px) and (min-height: 700px) {
   .section {
-    margin: 30px auto;
+    margin: 50px auto;
   }
   .section .introduction {
-    height: 550px;
+    height: 600px;
   }
   .section .about-mc {
-    height: 480px;
+    height: 500px !important;
   }
   .section .our-team {
     padding: 0;

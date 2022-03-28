@@ -30,7 +30,7 @@
                     <span>|</span>
                     <a href="/uz/" class="unactive">UZ</a>
                 </div>
-                <div class="theme"> </div>
+                <div class="theme"></div>
             </div>
             <a href="/" class="logo">
                 <!-- <img src="/assets/icons/logo.png" alt=""> -->

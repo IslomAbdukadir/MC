@@ -771,18 +771,6 @@ header {
         font-weight: 600;
         cursor: pointer;
       }
-      // a {
-      // 	margin: 15px 0;
-      // 	img {
-      // 		margin-right: 20px;
-      // 		width: 30px;
-      // 		height: 30px;
-      // 		transition: all 0.3s ease;
-      // 		&:hover {
-      // 			transform: translateY(-5px);
-      // 		}
-      // 	}
-      // }
     }
     &.active {
       .links {
@@ -874,22 +862,6 @@ header {
         font-size: 16px;
         line-height: 1.5;
       }
-      // .btn {
-      //   width: 280px;
-      //   height: 60px;
-      //   font-size: 18px;
-      //   font-weight: 600;
-      //   color: white;
-      //   background: $main;
-      //   display: flex;
-      //   justify-content: center;
-      //   align-items: center;
-      //   transition: all 0.3s ease;
-      //   border-radius: 30px;
-      //   &:hover {
-      //     transform: scale(0.98);
-      //   }
-      // }
     }
     img {
       position: absolute;
@@ -2161,7 +2133,7 @@ footer {
     // margin: 0 30px;
     position: relative;
     width: 90% !important;
-    margin: auto;
+    margin: 0 auto 100px auto;
 
     #home,
     #services,
@@ -2607,7 +2579,7 @@ footer {
 @media (max-width: 576px) {
   .section {
     width: 100% !important;
-    margin: 0 auto !important;
+    margin: 70px auto !important;
   }
   @keyframes cloud1 {
     0% {
@@ -2798,6 +2770,12 @@ footer {
           &.last {
             padding-top: 15px;
           }
+        }
+      }
+      .img {
+        img {
+          width: 90%;
+          // margin-top: 150px;
         }
       }
     }
@@ -3098,13 +3076,11 @@ footer {
                 .owl-item {
                   &.active {
                     .item {
-                      // transform: scale(0.7) !important;
                       width: 80%;
                       height: 80%;
                     }
                     &.center {
                       .item {
-                        // transform: scale(1) !important;
                         width: 100%;
                         height: 100%;
                       }
@@ -3179,12 +3155,16 @@ footer {
   }
 }
 
-@media (max-height: 900px) {
+@media (min-width: 1025px) and (min-height: 900px) {
   .section {
-    margin: 30px auto;
+    margin: 50px auto;
 
     .introduction {
       height: 760px;
+    }
+
+    .about-mc {
+      height: 650px;
     }
 
     .partners {
@@ -3198,15 +3178,15 @@ footer {
   }
 }
 
-@media (max-height: 850px) {
+@media (min-width: 1025px) and (min-height: 850px) {
   .section {
-    margin: 30px auto;
+    margin: 50px auto;
 
     .introduction {
       height: 630px;
     }
     .about-mc {
-      height: 550px;
+      height: 600px;
     }
     .our-team {
       padding: 50px 0 50px;
@@ -3226,15 +3206,12 @@ footer {
   }
 }
 
-@media (max-height: 750px) {
+@media (min-width: 1025px) and (min-height: 750px) {
   .section {
-    margin: 30px auto;
+    margin: 50px auto;
 
     .introduction {
-      height: 550px;
-    }
-    .about-mc {
-      height: 500px;
+      height: 650px;
     }
     .our-team {
       padding: 40px 0 40px;
@@ -3257,15 +3234,15 @@ footer {
   }
 }
 
-@media (max-height: 700px) {
+@media (min-width: 1025px) and (min-height: 700px) {
   .section {
-    margin: 30px auto;
+    margin: 50px auto;
 
     .introduction {
-      height: 550px;
+      height: 600px;
     }
     .about-mc {
-      height: 480px;
+      height: 500px !important;
     }
     .our-team {
       padding: 0;
@@ -3287,9 +3264,3 @@ footer {
     }
   }
 }
-
-// @media (max-height: 800px) {
-//   .section {
-//     margin: 150px auto auto;
-//   }
-// }
