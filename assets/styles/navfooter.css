@@ -2919,7 +2919,7 @@ footer .wrapper .footer-links:last-child {
             justify-content: center;
   }
   .about-text .about-mc .img img {
-    max-width: 100%;
+    max-width: 70%;
   }
   .services {
     margin: 50px 30px;
@@ -3276,7 +3276,7 @@ footer .wrapper .footer-links:last-child {
 @media (max-width: 576px) {
   .section {
     width: 100% !important;
-    margin: 70px auto !important;
+    margin: 30px auto 50px auto;
   }
   @-webkit-keyframes cloud1 {
     0% {
@@ -3372,14 +3372,10 @@ footer .wrapper .footer-links:last-child {
         -ms-transform: all 1s ease;
             transform: all 1s ease;
   }
-  .section {
-    margin: 0;
-  }
   header {
     height: 70px;
   }
   header .navigation {
-    right: 0;
     left: 0;
     padding: 0px 20px;
   }
@@ -3819,6 +3815,10 @@ footer .wrapper .footer-links:last-child {
   .introduction .rocket .images .cloud {
     right: 45%;
   }
+  .about-mc .img img {
+    width: 70% !important;
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -3854,15 +3854,25 @@ footer .wrapper .footer-links:last-child {
   }
 }
 
-@media (min-width: 1025px) and (min-height: 900px) {
+@media screen and (min-width: 1440px) and (min-height: 950px) {
+  .about-mc .img img {
+    max-width: 620px !important;
+  }
+}
+
+@media screen and (min-width: 1000px) and (min-height: 900px) {
   .section {
-    margin: 50px auto;
+    margin: 30px auto 50px auto;
   }
   .section .introduction {
-    height: 760px;
+    min-height: 760px;
   }
   .section .about-mc {
+    min-height: 650px;
     height: 650px;
+  }
+  .section .about-mc .img img {
+    max-width: 372px;
   }
   .section .partners .logos .partners-photo {
     width: 160px;
@@ -3870,15 +3880,20 @@ footer .wrapper .footer-links:last-child {
   }
 }
 
-@media (min-width: 1025px) and (min-height: 850px) {
+@media screen and (min-width: 950px) and (max-height: 850px) {
   .section {
-    margin: 50px auto;
+    margin: 30px auto 50px auto;
   }
   .section .introduction {
-    height: 630px;
+    min-height: 500px;
+    height: 650px;
   }
   .section .about-mc {
-    height: 600px;
+    min-height: 650px;
+    height: 650px;
+  }
+  .section .about-mc .img img {
+    width: 310px;
   }
   .section .our-team {
     padding: 50px 0 50px;
@@ -3894,12 +3909,20 @@ footer .wrapper .footer-links:last-child {
   }
 }
 
-@media (min-width: 1025px) and (min-height: 750px) {
+@media screen and (min-width: 900px) and (max-height: 750px) {
   .section {
-    margin: 50px auto;
+    margin: 30px auto 50px auto;
   }
   .section .introduction {
-    height: 650px;
+    min-height: 550px;
+    height: 550px;
+  }
+  .section .about-mc {
+    min-height: 600px;
+    height: 600px;
+  }
+  .section .about-mc .img img {
+    width: 248px;
   }
   .section .our-team {
     padding: 40px 0 40px;
@@ -3918,15 +3941,15 @@ footer .wrapper .footer-links:last-child {
   }
 }
 
-@media (min-width: 1025px) and (min-height: 700px) {
+@media screen and (min-width: 800px) and (max-height: 700px) {
   .section {
-    margin: 50px auto;
+    margin: 30px auto 50px auto;
   }
   .section .introduction {
-    height: 600px;
+    height: 700px;
   }
   .section .about-mc {
-    height: 500px !important;
+    min-height: 620px;
   }
   .section .our-team {
     padding: 0;

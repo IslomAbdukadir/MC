@@ -2215,7 +2215,7 @@ footer {
         display: flex;
         justify-content: center;
         img {
-          max-width: 100%;
+          max-width: 70%;
         }
       }
     }
@@ -2579,7 +2579,7 @@ footer {
 @media (max-width: 576px) {
   .section {
     width: 100% !important;
-    margin: 70px auto !important;
+    margin: 30px auto 50px auto;
   }
   @keyframes cloud1 {
     0% {
@@ -2638,13 +2638,10 @@ footer {
       transform: all 1s ease;
     }
   }
-  .section {
-    margin: 0;
-  }
+
   header {
     height: 70px;
     .navigation {
-      right: 0;
       left: 0;
       padding: 0px 20px;
       .mobile-btns {
@@ -3100,6 +3097,14 @@ footer {
   .introduction .rocket .images .cloud {
     right: 45%;
   }
+  .about-mc {
+    .img {
+      img {
+        width: 70% !important;
+        margin-bottom: 30px;
+      }
+    }
+  }
 }
 
 @media (max-width: 400px) {
@@ -3155,16 +3160,33 @@ footer {
   }
 }
 
-@media (min-width: 1025px) and (min-height: 900px) {
+@media screen and (min-width: 1440px) and (min-height: 950px) {
+  .about-mc {
+    .img {
+      img {
+        max-width: 620px !important;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) and (min-height: 900px) {
   .section {
-    margin: 50px auto;
+    margin: 30px auto 50px auto;
 
     .introduction {
-      height: 760px;
+      min-height: 760px;
     }
 
     .about-mc {
+      min-height: 650px;
       height: 650px;
+
+      .img {
+        img {
+          max-width: 372px;
+        }
+      }
     }
 
     .partners {
@@ -3178,16 +3200,26 @@ footer {
   }
 }
 
-@media (min-width: 1025px) and (min-height: 850px) {
+@media screen and (min-width: 950px) and (max-height: 850px) {
   .section {
-    margin: 50px auto;
+    margin: 30px auto 50px auto;
 
     .introduction {
-      height: 630px;
+      min-height: 500px;
+      height: 650px;
     }
+
     .about-mc {
-      height: 600px;
+      min-height: 650px;
+      height: 650px;
+
+      .img {
+        img {
+          width: 310px;
+        }
+      }
     }
+
     .our-team {
       padding: 50px 0 50px;
       .member-info {
@@ -3206,13 +3238,27 @@ footer {
   }
 }
 
-@media (min-width: 1025px) and (min-height: 750px) {
+@media screen and (min-width: 900px) and (max-height: 750px) {
   .section {
-    margin: 50px auto;
+    margin: 30px auto 50px auto;
 
     .introduction {
-      height: 650px;
+      min-height: 550px;
+      height: 550px;
     }
+
+    .about-mc {
+      min-height: 600px;
+      height: 600px;
+
+      .img {
+        img {
+          // max-width: 40%;
+          width: 248px;
+        }
+      }
+    }
+
     .our-team {
       padding: 40px 0 40px;
       .member-info {
@@ -3234,16 +3280,18 @@ footer {
   }
 }
 
-@media (min-width: 1025px) and (min-height: 700px) {
+@media screen and (min-width: 800px) and (max-height: 700px) {
   .section {
-    margin: 50px auto;
+    margin: 30px auto 50px auto;
 
     .introduction {
-      height: 600px;
+      height: 700px;
     }
+
     .about-mc {
-      height: 500px !important;
+      min-height: 620px;
     }
+
     .our-team {
       padding: 0;
       .member-info {
