@@ -1782,6 +1782,43 @@ footer {
             }
           }
         }
+        .partner-btn {
+          position: relative;
+          overflow: hidden;
+          span {
+            font-size: 16px;
+            color: white;
+            font-weight: 600;
+            z-index: 2;
+            border-radius: 40px;
+          }
+          &::before {
+            content: "";
+            position: absolute;
+            width: 40px;
+            height: 280px;
+            background: white;
+            transition: all 1.5s ease;
+            animation: partnerBtn 4s linear infinite;
+            border-radius: 40px;
+          }
+          &::after {
+            content: "";
+            position: absolute;
+            inset: 2px 0 2px 0;
+            background: $main;
+            transition: all 1s ease;
+            border-radius: 40px;
+          }
+          @keyframes partnerBtn {
+            0% {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+        }
       }
       .trademark {
         color: #3b3b3b;
@@ -1798,6 +1835,12 @@ footer {
     }
   }
 }
+
+
+.nav-btn:hover {
+  background: #fff;
+  transform: scale(1.2);
+} 
 .partners {
   max-width: 1200px;
   margin: 0 auto;
@@ -1858,6 +1901,52 @@ footer {
       transition: all 1s ease;
       border-radius: 40px;
     }
+    @keyframes partnerBtn {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
+}
+.partner-btn {
+  background: $main;
+  border-radius: 40px;
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  span {
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    z-index: 2;
+    border-radius: 40px;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 280px;
+    background: white;
+    transition: all 1.5s ease;
+    animation: partnerBtn 4s linear infinite;
+    border-radius: 40px;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 2px 0 2px 0;
+    background: $main;
+    transition: all 1s ease;
+    border-radius: 40px;
   }
   @keyframes partnerBtn {
     0% {
@@ -1868,6 +1957,7 @@ footer {
     }
   }
 }
+
 .second-partners {
   display: none !important;
 }

@@ -29,6 +29,8 @@
                     <a href="#!" class="active">RU</a>
                     <span>|</span>
                     <a href="/uz/" class="unactive">UZ</a>
+                    <span>|</span>
+                    <a href="/eng/" class="unactive">ENG</a>
                 </div>
                 <div class="theme"></div>
             </div>
@@ -44,7 +46,9 @@
                 </button>
             </div>     
             <div class="socials" data-aos="fade-down">
-                <div class="partner-btn">Оставить заявку</div>
+                <div class="partner-btn">
+                    <span>Оставить заявку</span>
+                </div>
                 <!-- <a href="https://t.me/marketingconcept_uz"><img src="/assets/icons/telegram-f.svg" alt=""></a>
                 <a href="https://www.instagram.com/marketingconcept.uz/"><img src="/assets/icons/instagram-f.svg" alt=""></a>
                 <a href="https://www.facebook.com/MarketingConcept.uz"><img src="/assets/icons/facebook-f.svg" alt=""></a> -->

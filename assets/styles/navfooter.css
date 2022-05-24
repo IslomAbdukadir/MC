@@ -1190,8 +1190,10 @@ header .phone-givo::after {
   right: 35%;
   width: 100px;
   height: 80px;
-  -webkit-animation: element1 1s 4.5s alternate backwards, element2 1s 6s linear alternate forwards infinite;
-          animation: element1 1s 4.5s alternate backwards, element2 1s 6s linear alternate forwards infinite;
+  -webkit-animation: element1 1s 4.5s alternate backwards,
+ element2 1s 6s linear alternate forwards infinite;
+          animation: element1 1s 4.5s alternate backwards,
+ element2 1s 6s linear alternate forwards infinite;
 }
 
 .introduction .rocket .cloud-down {
@@ -1199,50 +1201,64 @@ header .phone-givo::after {
   right: 13%;
   width: 80px;
   height: 60px;
-  -webkit-animation: element1 1s 4.5s alternate backwards, element2 2s 6s linear alternate forwards infinite;
-          animation: element1 1s 4.5s alternate backwards, element2 2s 6s linear alternate forwards infinite;
+  -webkit-animation: element1 1s 4.5s alternate backwards,
+ element2 2s 6s linear alternate forwards infinite;
+          animation: element1 1s 4.5s alternate backwards,
+ element2 2s 6s linear alternate forwards infinite;
 }
 
 .introduction .rocket .graph {
   bottom: 25%;
   right: 5%;
-  -webkit-animation: element1 1s 4.5s alternate backwards, element2 1s 6s linear alternate forwards infinite;
-          animation: element1 1s 4.5s alternate backwards, element2 1s 6s linear alternate forwards infinite;
+  -webkit-animation: element1 1s 4.5s alternate backwards,
+ element2 1s 6s linear alternate forwards infinite;
+          animation: element1 1s 4.5s alternate backwards,
+ element2 1s 6s linear alternate forwards infinite;
 }
 
 .introduction .rocket .plus {
   top: 20px;
   right: 30%;
-  -webkit-animation: element1 1s 4.5s alternate backwards, element2 2s 6s linear alternate forwards infinite;
-          animation: element1 1s 4.5s alternate backwards, element2 2s 6s linear alternate forwards infinite;
+  -webkit-animation: element1 1s 4.5s alternate backwards,
+ element2 2s 6s linear alternate forwards infinite;
+          animation: element1 1s 4.5s alternate backwards,
+ element2 2s 6s linear alternate forwards infinite;
 }
 
 .introduction .rocket .wave-line {
   top: 25px;
   right: 15%;
-  -webkit-animation: element1 1s 4.5s alternate backwards, element2 2s 6s linear alternate forwards infinite;
-          animation: element1 1s 4.5s alternate backwards, element2 2s 6s linear alternate forwards infinite;
+  -webkit-animation: element1 1s 4.5s alternate backwards,
+ element2 2s 6s linear alternate forwards infinite;
+          animation: element1 1s 4.5s alternate backwards,
+ element2 2s 6s linear alternate forwards infinite;
 }
 
 .introduction .rocket .square-double {
   right: 8%;
   top: 80px;
-  -webkit-animation: element1 1s 4.5s alternate backwards, element2 2s 6s linear alternate forwards infinite;
-          animation: element1 1s 4.5s alternate backwards, element2 2s 6s linear alternate forwards infinite;
+  -webkit-animation: element1 1s 4.5s alternate backwards,
+ element2 2s 6s linear alternate forwards infinite;
+          animation: element1 1s 4.5s alternate backwards,
+ element2 2s 6s linear alternate forwards infinite;
 }
 
 .introduction .rocket .circle {
   right: 5%;
   top: 150px;
-  -webkit-animation: element1 1s 4.5s alternate backwards, element2 2s 6s linear alternate forwards infinite;
-          animation: element1 1s 4.5s alternate backwards, element2 2s 6s linear alternate forwards infinite;
+  -webkit-animation: element1 1s 4.5s alternate backwards,
+ element2 2s 6s linear alternate forwards infinite;
+          animation: element1 1s 4.5s alternate backwards,
+ element2 2s 6s linear alternate forwards infinite;
 }
 
 .introduction .rocket .circle-square {
   right: 40%;
   top: 150px;
-  -webkit-animation: element1 1s 4.5s alternate backwards, element2 2s 6s linear alternate forwards infinite;
-          animation: element1 1s 4.5s alternate backwards, element2 2s 6s linear alternate forwards infinite;
+  -webkit-animation: element1 1s 4.5s alternate backwards,
+ element2 2s 6s linear alternate forwards infinite;
+          animation: element1 1s 4.5s alternate backwards,
+ element2 2s 6s linear alternate forwards infinite;
 }
 
 .introduction .numbers {
@@ -2288,6 +2304,24 @@ header .phone-givo::after {
   position: absolute;
   top: -30px;
 }
+/* 
+.socials {
+  position: relative;
+}
+
+.socials .partner-btn span {
+  position: relative;
+}
+
+.socials .partner-btn span::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+} */
 
 footer {
   display: -webkit-box;
@@ -2456,7 +2490,7 @@ footer .wrapper .footer-links:last-child {
           transform: scale(1.2);
 }
 
-.partners .partner-btn {
+.partners .partner-btn, .socials .partner-btn {
   background: #064387;
   border-radius: 40px;
   width: 300px;
@@ -2476,15 +2510,16 @@ footer .wrapper .footer-links:last-child {
   overflow: hidden;
 }
 
-.partners .partner-btn span {
+.partners .partner-btn span, .socials .partner-btn span {
   font-size: 16px;
   color: white;
   font-weight: 600;
   z-index: 2;
   border-radius: 40px;
+  position: relative;
 }
 
-.partners .partner-btn::before {
+.partners .partner-btn::before ,.socials .partner-btn::before {
   content: "";
   position: absolute;
   width: 40px;
@@ -2498,7 +2533,7 @@ footer .wrapper .footer-links:last-child {
   border-radius: 40px;
 }
 
-.partners .partner-btn::after {
+.partners .partner-btn::after, .socials .partner-btn::after{
   content: "";
   position: absolute;
   inset: 2px 0 2px 0;

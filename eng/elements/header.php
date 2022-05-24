@@ -29,15 +29,15 @@
                 <div class="lang">
                     <a href="/" class="unactive">RU</a>
                     <span>|</span>
-                    <a href="#!" class="active">UZ</a>
+                    <a href="/uz/" class="unactive">UZ</a>
                     <span>|</span>
-                    <a href="/eng/" class="unactive">ENG</a>
+                    <a href="#!" class="active">ENG</a>
                 </div>
                 <div class="theme">
                     <!-- <img src="/assets/icons/moon.svg" alt=""> -->
                 </div>
             </div>
-            <a href="/" class="logo">
+            <a href="#!" class="logo">
                 <!-- <img src="/assets/icons/logo.png" alt=""> -->
                 <img src="/assets/img/oqlogo.png" alt="logo">
             </a>
@@ -50,7 +50,7 @@
             </div>
 
             <div class="socials" data-aos="fade-down">
-                <div class="partner-btn">So'rov qoldiring</div>
+                <div class="partner-btn nav-btn">Submit application</div>
                 <!-- <a href="https://t.me/marketingconcept_uz"><img src="/assets/icons/telegram-f.svg" alt=""></a>
                 <a href="https://www.instagram.com/marketingconcept.uz/"><img src="/assets/icons/instagram-f.svg" alt=""></a>
                 <a href="https://www.facebook.com/MarketingConcept.uz"><img src="/assets/icons/facebook-f.svg" alt=""></a> -->
@@ -60,12 +60,12 @@
             <ul class="links">
                 <div class="inner">
                     <div><a href="#!"><img src="/assets/icons/logo.png" alt=""></a></div>
-                    <div><a href="#home">Asosiy</a></div>
-                    <div><a href="#services">Xizmatlar</a></div>
-                    <div><a href="#team">Jamoa</a></div>
-                    <div><a href="#feedbacks">Taqrizlar</a></div>
-                    <div><a href="#partners">Hamkorlar</a></div>
-                    <div><a href="#contacts">Bog'lanish</a></div>
+                    <div><a href="#home">Main</a></div>
+                    <div><a href="#services">Services</a></div>
+                    <div><a href="#team">Team</a></div>
+                    <div><a href="#feedbacks">Reviews</a></div>
+                    <div><a href="#partners">Partners</a></div>
+                    <div><a href="#contacts">Contacts</a></div>
                     <div class="inner-socials">
                         <a href="https://t.me/marketingconcept_uz"><img src="/assets/icons/telegram-f.svg" alt=""></a>
                         <a href="https://www.instagram.com/marketingconcept.uz/"><img src="/assets/icons/instagram-f.svg" alt=""></a>
